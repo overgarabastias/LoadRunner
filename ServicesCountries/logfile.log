@@ -1,0 +1,2 @@
+c:\users\omar.vergara\documents\vugen\scripts\servicescountries\\pre_cci.c: Action.c:20: warning: pointer to local `strTemp' is an illegal return value
+c:\users\omar.vergara\documents\vugen\scripts\servicescountries\\pre_cci.c: Action.c:59: warning: expression with no effect elided

@@ -1,0 +1,272 @@
+[API Trapper      ( b54:1560)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1730: da0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (16e0: e3c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( b54: 7f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( b54: 7f8)] Load Network Traffic Analyzers:
+[Network Analyzer ( b54: 7f8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( b54: 7f8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( b54: 7f8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( b54: 7f8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( b54: 7f8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( b54: 7f8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( b54: 7f8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( b54: 7f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( b54:1454)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 216.58.222.163:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 216.58.222.163:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 216.58.222.163:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 216.58.222.163:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 216.58.222.163:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 216.58.222.163:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.120:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.120:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.95:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.113:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.190.91:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( b54:17a4)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54: c40)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54:14e0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54:158c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54:141c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54: c40)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54:13f4)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer ( b54:17a4)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54:1484)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer ( b54:158c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54:14fc)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54:141c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54:13f4)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54:1024)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( b54:14e0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: 398)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer ( b54:1484)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54:14fc)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: 8e0)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer ( b54:1024)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: 398)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: 8e0)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( b54:1454)] "GET /chrome-variations/seed?osname=win"   
+[Network Analyzer ( b54:1454)]   (Sid: 10) Client -> Server @ : 340 bytes (SSL)(Service=HTTP)
+[Web Request      ( b54:1454)] "GET /translate_a/l?client=chrome&hl=es&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&alpha=1"   
+[Network Analyzer ( b54:1454)]   (Sid:  9) Client -> Server @ : 323 bytes (SSL)(Service=HTTP)
+[Web Request      ( b54:1454)] "POST /safebrowsing/gethash?client=googlechrome&appver=57.0.2987.133&pver=3.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&ext=0"   
+[Network Analyzer ( b54:1454)]   (Sid: 11) Client -> Server @ : 557 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 11) Server -> Client : 356 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid:  9) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid:  9) Server -> Client : 153 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 10) Server -> Client : 536 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:7676   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( b54:1454)] "GET /smp_21_"   
+[Network Analyzer ( b54:1454)]   (Sid: 12) Client -> Server @ : 287 bytes (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:7676   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.120:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.120:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: d98)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.104:443   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      ( b54:1454)] "GET /smp_21_"   
+[Network Analyzer ( b54:1454)]   (Sid: 13) Client -> Server @ : 287 bytes (Service=HTTP)
+[Network Analyzer ( b54: 944)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54: d98)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: cd4)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( b54:1454)]   (Sid: 13) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 13) Server -> Client : 112 bytes  (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:7676   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( b54: cd4)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: 944)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( b54:1454)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer ( b54:1454)]   (Sid: 14) Client -> Server @ : 276 bytes (SSL)(Service=HTTP)
+[Web Request      ( b54:1454)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer ( b54:1454)]   (Sid: 15) Client -> Server @ : 280 bytes (SSL)(Service=HTTP)
+[Web Request      ( b54:1454)] "GET /smp_21_"   
+[Network Analyzer ( b54:1454)]   (Sid: 17) Client -> Server @ : 287 bytes (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 17) Server -> Client : 1572 bytes  (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 270 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 270 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 14) Server -> Client : 1265 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 15) Server -> Client : 1265 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b54: 7f8)] Request Connection: Remote Server @ 192.168.17.33:8009   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.186.84:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( b54: da4)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( b54: da4)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 52.3.198.61:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( b54:12d0)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( b54:12d0)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( b54:1454)] "GET /api/app_broadcasts?user_id=0&access_token=&count=10&app_version=4.10.7&app_platform=chrome"   
+[Network Analyzer ( b54:1454)]   (Sid: 19) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 19) Server -> Client : 406 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.190.113:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 64.233.190.113:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( b54:11f0)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( b54: b20)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer ( b54:11f0)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( b54: b20)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( b54:1454)] "POST /collect"   
+[Network Analyzer ( b54:1454)]   (Sid: 20) Client -> Server @ : 615 bytes (SSL)(Service=HTTP)
+[Web Request      ( b54:1454)] "POST /collect"   
+[Network Analyzer ( b54:1454)]   (Sid: 21) Client -> Server @ : 652 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 20) Server -> Client : 511 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 21) Server -> Client : 511 bytes (SSL) (Service=HTTP)
+[API Trapper      ( b18: adc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[User action                 ] StartTransactionEvent getCountries [Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 173.201.44.188:80   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      ( b54:1454)] "GET /country.asmx/GetCountries?"   
+[Network Analyzer ( b54:1454)]   (Sid: 22) Client -> Server @ : 385 bytes (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 22) Server -> Client : 1369 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent getCountries [Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 52.71.178.114:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( b54: 8d4)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer ( b54: 8d4)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( b54:1454)] "POST /events"   
+[Network Analyzer ( b54:1454)]   (Sid: 23) Client -> Server @ : 1135 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 23) Server -> Client : 630 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b54: 7f8)] Address lookup for CL-NB-OMVE = 192.168.17.96
+[Network Analyzer ( b54: 7f8)] Request Connection: Remote Server @ 52.84.179.114:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( b54: e68)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( b54: e68)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( b54:1454)] "POST /events"   
+[Network Analyzer ( b54:1454)]   (Sid: 24) Client -> Server @ : 1097 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer ( b54:1454)]   (Sid: 24) Server -> Client : 660 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent getGMTbyCountry [Web Request      ( b54:1454)] "POST /country.asmx/GetGMTbyCountry"   
+[Network Analyzer ( b54:1454)]   (Sid: 22) Client -> Server @ : 529 bytes (Service=HTTP)
+[Network Analyzer ( b54:1454)]   (Sid: 22) Server -> Client : 557 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent getGMTbyCountry 

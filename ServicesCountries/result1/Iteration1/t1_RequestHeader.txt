@@ -1,0 +1,8 @@
+GET /country.asmx/GetCountries? HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-ES,es;q=0.8
+Accept: */*
+Connection: Keep-Alive
+Host: www.webservicex.net
+

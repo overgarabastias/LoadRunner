@@ -1,0 +1,27 @@
+function  HTMLHelp_GetPopupHTML(ParamKey)
+{
+  var  VarHTML = null;
+
+
+  if (ParamKey == unescape("web_services_FuncRef_Soap_10.html#wp18146")) VarHTML = "<a name=\"wp18146\"> </a><div class=\"pPopupOnly\">The following arguments may be parameterized: <em class=\"cItalic\">URL</em>, <em class=\"cItalic\">XMLEnvelope, value </em>(of elements).</div>";
+  if (ParamKey == unescape("web_services_FuncRef_Soap_08.html#wp31212")) VarHTML = "<a name=\"wp31212\"> </a><div class=\"pPopupOnly\">The parameter <em class=\"cItalic\">CHECKPOINT</em> can be parameterized.</div>";
+  if (ParamKey == unescape("web_services_FuncRef_Soap_13.html#wp20050")) VarHTML = "<a name=\"wp20050\"> </a><div class=\"pPopupOnly\">The URL argument can be parameterized. Most of the values of the specifications can be parameterized. Exceptions are noted in the descriptions below.</div>";
+  if (ParamKey == unescape("web_services_FuncRef_Soap_13.html#wp29642")) VarHTML = "<a name=\"wp29642\"> </a><div class=\"pPopupOnly\">All attribute values of web_service_set_security can be parameterized except as noted in the descriptions of the attributes.</div>";
+  if (ParamKey == unescape("web_services_FuncRef_Soap_13.html#wp22526")) VarHTML = "<a name=\"wp22526\"> </a><div class=\"pPopupOnly\">All attribute values of ws_sign_saml_assertion can be parameterized except as noted in the descriptions of the attributes.</div>";
+  if (ParamKey == unescape("web_services_FuncRef_Soap_24.html#wp32599")) VarHTML = "<a name=\"wp32599\"> </a><div class=\"pPopupOnly\">The parameter <em class=\"cItalic\">ServiceName</em> can be parameterized.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp21743")) VarHTML = "<a name=\"wp21743\"> </a><div class=\"pPopupOnly\">All string arguments (char type) can be parameterized using standard parameterization.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp21758")) VarHTML = "<a name=\"wp21758\"> </a><div class=\"pPopupOnly\">All input string arguments (char type) can be parameterized using standard parameterization.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp21762")) VarHTML = "<a name=\"wp21762\"> </a><div class=\"pPopupOnly\">This function returns LR_PASS (0) on success, and LR_FAIL (1) on failure. Note that in many cases, this return value indicates the technical success of the function, and not the result. For example, a function that registers a string to be found in a subsequent step returns LR_PASS to indicate that the registration was successful. This does not indicate that the string was found in the server response.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp17128")) VarHTML = "<a name=\"wp17128\"> </a><div class=\"pPopupOnly\">You cannot use standard parameterization for any arguments in this function.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp17132")) VarHTML = "<a name=\"wp17132\"> </a><div class=\"pPopupOnly\">All arguments can be parameterized using standard parameterization.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp17145")) VarHTML = "<a name=\"wp17145\"> </a><div class=\"pPopupOnly\">This function returns a 0 for success and a number greater than zero for failure.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp17149")) VarHTML = "<a name=\"wp17149\"> </a><div class=\"pPopupOnly\">This function returns 0 if it succeeds, and a negative error code if it fails.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp17152")) VarHTML = "<a name=\"wp17152\"> </a><div class=\"pPopupOnly\">This function returns 0 on success and -1 on failure.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp24821")) VarHTML = "<a name=\"wp24821\"> </a><div class=\"pPopupOnly\">The values of keyword-value pairs can be parameterized. For example, &quot;ALT={altParam}&quot;.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp24813")) VarHTML = "<a name=\"wp24813\"> </a><div class=\"pPopupOnly\">Parameterization is not applicable to this function.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp25004")) VarHTML = "<a name=\"wp25004\"> </a><div class=\"pPopupOnly\">This function returns 0 on success and a non-zero value for failure.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp28816")) VarHTML = "<a name=\"wp28816\"> </a><div class=\"pPopupOnly\">This function returns 0 if it succeeds. Success means that both of the following are true:<br />* The dynamic parameter by the specified name is found.<br />* The memory allocated for the dynamic parameter is freed successfully.<br />Otherwise, the function returns a negative number.</div>";
+  if (ParamKey == unescape("Paramererization_Background.html#wp18277")) VarHTML = "<a name=\"wp18277\"> </a><div class=\"pPopupOnly\">No value is returned.</div>";
+
+  return VarHTML;
+}

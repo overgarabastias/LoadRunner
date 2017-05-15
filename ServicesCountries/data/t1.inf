@@ -1,0 +1,15 @@
+[t1]
+FileName1=t1.html
+URL1=https://safebrowsing.google.com/safebrowsing/gethash?client=googlechrome&appver=57.0.2987.133&pver=3.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&ext=0
+Total=3
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=t1_RequestBody.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t1_l.html
+URL2=https://translate.googleapis.com/translate_a/l?client=chrome&hl=es&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&alpha=1
+FileName3=t1_seed.html
+URL3=https://clients4.google.com/chrome-variations/seed?osname=win
+[ProtocolInfo]
+ProtocolId=QTWeb

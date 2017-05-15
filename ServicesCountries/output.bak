@@ -1,0 +1,70 @@
+Virtual User Script started at : 11-05-2017 12:43:33
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 7; build 1203 (may 11 2017 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\omar.vergara\Documents\VuGen\Scripts\ServicesCountries\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(32): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(32): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(34): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(36): Notify: Transaction "getCountries" started.
+Action.c(38): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(46): cantidad de paises {pais_1}
+Action.c(48): web_url("GetCountries") started  	[MsgId: MMSG-26355]
+Action.c(48): web_url("GetCountries") was successful, 2551 body bytes, 278 header bytes  	[MsgId: MMSG-26386]
+Action.c(70): Notify: Transaction "getCountries" ended with a "Pass" status (Duration: 2,0992 Wasted Time: 0,2890).
+Action.c(72): Notify: Transaction "getGMTbyCountry" started.
+Action.c(76): web_submit_data("GetGMTbyCountry") started  	[MsgId: MMSG-26355]
+Action.c(76): web_submit_data("GetGMTbyCountry") was successful, 281 body bytes, 277 header bytes  	[MsgId: MMSG-26386]
+Action.c(87): Notify: Transaction "getGMTbyCountry" ended with a "Pass" status (Duration: 0,4206 Wasted Time: 0,0057).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(32): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(32): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(34): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(36): Notify: Transaction "getCountries" started.
+Action.c(38): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(46): cantidad de paises {pais_1}
+Action.c(48): web_url("GetCountries") started  	[MsgId: MMSG-26355]
+Action.c(48): web_url("GetCountries") was successful, 2551 body bytes, 278 header bytes  	[MsgId: MMSG-26386]
+Action.c(70): Notify: Transaction "getCountries" ended with a "Pass" status (Duration: 1,3498 Wasted Time: 0,0054).
+Action.c(72): Notify: Transaction "getGMTbyCountry" started.
+Action.c(76): web_submit_data("GetGMTbyCountry") started  	[MsgId: MMSG-26355]
+Action.c(76): web_submit_data("GetGMTbyCountry") was successful, 282 body bytes, 277 header bytes  	[MsgId: MMSG-26386]
+Action.c(87): Notify: Transaction "getGMTbyCountry" ended with a "Pass" status (Duration: 0,2245 Wasted Time: 0,0029).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(32): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(32): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(34): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(36): Notify: Transaction "getCountries" started.
+Action.c(38): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(46): cantidad de paises {pais_1}
+Action.c(48): web_url("GetCountries") started  	[MsgId: MMSG-26355]
+Action.c(48): web_url("GetCountries") was successful, 2551 body bytes, 278 header bytes  	[MsgId: MMSG-26386]
+Action.c(70): Notify: Transaction "getCountries" ended with a "Pass" status (Duration: 1,3056 Wasted Time: 0,0053).
+Action.c(72): Notify: Transaction "getGMTbyCountry" started.
+Action.c(76): web_submit_data("GetGMTbyCountry") started  	[MsgId: MMSG-26355]
+Action.c(76): web_submit_data("GetGMTbyCountry") was successful, 282 body bytes, 277 header bytes  	[MsgId: MMSG-26386]
+Action.c(87): Notify: Transaction "getGMTbyCountry" ended with a "Pass" status (Duration: 0,5248 Wasted Time: 0,0033).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

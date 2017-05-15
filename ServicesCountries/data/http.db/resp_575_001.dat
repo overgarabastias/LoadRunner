@@ -1,0 +1,2076 @@
+BODY
+{
+    BACKGROUND-COLOR: #ffffff;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 14pt;
+    WORD-SPACING: normal
+}
+A:active
+{
+    COLOR: red
+}
+A:hover
+{
+    COLOR: red
+}
+A:link
+{
+    COLOR: blue
+}
+A:visited
+{
+    COLOR: purple
+}
+.pn1Heading
+{
+    BACKGROUND-COLOR: #808080;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 14pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-RIGHT: 0pt;
+    MARGIN-TOP: 6pt;
+    PADDING-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 6pt
+}
+.pn1Heading_ref
+{
+    BACKGROUND-COLOR: #808080;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 14pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-RIGHT: 0pt;
+    MARGIN-TOP: 6pt;
+    PADDING-LEFT: 6pt;
+    PADDING-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn1Heading_apdx
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn1Heading_contents
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn1Heading_divider
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn1Heading_index
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn1Heading_cs
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn1Heading_procedure
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn2Heading
+{
+    BACKGROUND-COLOR: #808080;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 14pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-RIGHT: 0pt;
+    MARGIN-TOP: 6pt;
+    PADDING-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 6pt
+}
+.pn2Heading_ref
+{
+    BACKGROUND-COLOR: #808080;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 14pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 6pt;
+    MARGIN-RIGHT: 0pt;
+    MARGIN-TOP: 6pt;
+    PADDING-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 12pt
+}
+.pn2Headingcs
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 8pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn3Heading
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 8pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn3Heading_after_table
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 8pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn3Heading_before_table
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 8pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn3Heading_chapters
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 8pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn3Heading_lessons
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 8pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn3Heading_ref
+{
+    BACKGROUND-COLOR: #808080;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 14pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-RIGHT: 0pt;
+    MARGIN-TOP: 6pt;
+    PADDING-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 12pt
+}
+.pn3Heading_parts
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 6pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn4Heading
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 6pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 12pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn5Heading
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 6pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 12pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pn5Heading_WW
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 6pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 12pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pAddress
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pAnchor
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pAnswer
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_After
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_wide
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_wide_after
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_wide_cs
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_wider
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_wider_after
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pBullet_widest_cs
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCaption
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-STYLE: italic;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCaption_indent
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-STYLE: italic;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 34pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCaution
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCaution_bottom
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+ 
+}
+.pCaution_middle
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+
+}
+.pCaution_top
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionWide
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionWider
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 2pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionProc
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionProcBottom
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionProcMiddle
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionProcTop
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: 7pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionProcWide
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCautionProcWider
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellBody_bulleted
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellbody
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellBodyTOC
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 3pt;
+    MARGIN-LEFT: 3pt;
+    MARGIN-TOP: 3pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellBody_b
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellBody_p
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellBody_centered
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: center;
+    TEXT-INDENT: 0pt
+}
+.pCellBody_to_p
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellBody_wide
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 15pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pCellHeading
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pComment
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-STYLE: italic;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pDisclaimer
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pDropDownClosed
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: underline
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+
+.pDropDownOpen
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: underline
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pExample
+{
+    COLOR: black;
+    FONT-FAMILY: Courier, Courier New, ms sans serif ;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 1pt;
+    MARGIN-LEFT: 15pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pExample_after
+{
+	COLOR: black;
+	FONT-FAMILY: Courier, Courier New, ms sans serif ;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	MARGIN-BOTTOM: 1pt;
+	MARGIN-LEFT: 15pt;
+	MARGIN-TOP: 6pt;
+	TEXT-ALIGN: left;
+	TEXT-INDENT: 0pt
+}
+.pExample_box
+{
+    COLOR: black;
+    FONT-FAMILY: Courier, Courier New, ms sans serif ;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 1pt;
+    MARGIN-LEFT: 6pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pExample_box_after
+{
+    COLOR: black;
+    FONT-FAMILY: Courier, Courier New, ms sans serif ;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 1pt;
+    MARGIN-LEFT: 6pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pExample_wide
+{
+    COLOR: black;
+    FONT-FAMILY: Courier, Courier New, ms sans serif ;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 1pt;
+    MARGIN-LEFT: 9pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pExample_wider
+{
+    COLOR: black;
+    FONT-FAMILY: Courier, Courier New, ms sans serif ;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 1pt;
+    MARGIN-LEFT: 54pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pExample_wide_after
+{
+    COLOR: black;
+    FONT-FAMILY: Courier, Courier New, ms sans serif ;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 1pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pFootnote
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+
+.pIndent
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 10.5pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pIndent_after
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 10.5pt;
+    MARGIN-TOP: 10pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pIndent_extra_wide
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 6pt;
+    MARGIN-LEFT: 25pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pIndent_wide
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 9.5pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pIndent_wider
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pIndent_wide_after
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 9.5pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pInformation
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-STYLE: italic;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pIndented3
+{
+}
+.pIndented4
+{
+}
+.pLevel1IX
+{
+}
+.pLevel12IX
+{
+}
+.pLevel13IX
+}
+.pNewHTMLPage
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 32pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNote
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNote_bottom
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+ 
+}
+.pNote_middle
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNote_top
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 6pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteWide
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteWider
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 1pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteProc
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteProcBottom
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteProcMiddle
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteProcTop
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteProcWide
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pNoteProcWider
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pPlatform
+{
+    COLOR: #008b8b;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 16pt;
+    FONT-STYLE: italic;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: center;
+    TEXT-INDENT: 0pt
+}
+.pProcedure
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pProcedure_after
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pProcedure_bold
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pProcedure_bold_after
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pQuestion
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pRegtext
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pRegtext_after
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 18pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pRegtext_wide
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 9pt;
+    MARGIN-LEFT: 40pt;
+    MARGIN-TOP: 9pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartBullet1
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 10pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartBullet1Bold
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 10pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartBullet2
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 8.5pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartBullet3
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    LIST-STYLE: disc
+}
+.pSmartBullet4
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-LEFT: 6pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    LIST-STYLE: disc
+}
+.pSmartBulletSquare
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: square;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 9.5pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartImp1
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 5pt;
+    PADDING-LEFT: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -11pt
+}
+.pSmartImpProc1
+{
+    BACKGROUND-COLOR: #FFE6CC;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 3pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-BOTTOM: 1pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartList1
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 11pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartListBold1dd
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 11pt;
+    MARGIN-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartList1Small
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 9pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartList2
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartList3
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    LIST-STYLE: square
+}
+.pSmartList4
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left
+}
+.pSmartListAlpha
+{
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	list-style-type : lower-alpha;
+	MARGIN-BOTTOM: 4pt;
+	MARGIN-LEFT: 9.5pt;
+	MARGIN-TOP: 4pt;
+	TEXT-ALIGN: left;
+	TEXT-INDENT: 0pt
+}
+.pSmartListBold1
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 11pt;
+    MARGIN-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartListBold1After
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 4pt;
+    MARGIN-LEFT: 11pt;
+    MARGIN-TOP: 12pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartNote1
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 5pt;
+    PADDING-LEFT: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -11pt
+}
+.pSmartNoteProc1
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 3pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-BOTTOM: 1pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSmartTip1
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 13pt;
+    MARGIN-TOP: -2pt;
+    PADDING-TOP: 2pt;
+    PADDING-LEFT: 15pt;
+    PADDING-BOTTOM: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -12pt
+}
+.pSmartTipProc1
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    LIST-STYLE: disc;
+    MARGIN-BOTTOM: 3pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-BOTTOM: 1pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSyntax
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    PADDING-LEFT: 24pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -24pt
+}
+.pSyntax_first
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSyntax_next
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 34pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pSyntaxLang
+{
+    BACKGROUND-COLOR: #C0C0C0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 4pt;
+    PADDING-LEFT: 24pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -24pt
+}
+.pSyntaxFunc
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-LEFT: 24pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    PADDING-BOTTOM: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -24pt
+}
+.pSyntaxSpecs
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 12pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 24pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 4pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: -24pt
+}
+.pTable_column
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 0pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTable_Note
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTable_Note_bottom
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+	 LEFT-INDENT; 
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTable_Note_top
+{
+    BACKGROUND-COLOR: #ffffe0;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTableTitle
+{
+    FONT-STYLE: italic;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center
+}
+.pTable_Tip
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 0pt;
+    MARGIN-TOP: 2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTip
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTip_bottom
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTip_top
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTipProc
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt 
+}
+.pTipProcBottom
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 16pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: -2pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTipProcMiddle
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 0pt;
+    PADDING-BOTTOM: 8pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 8pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt    
+}
+.pTipProcTop
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: -2pt;
+    MARGIN-LEFT: 8pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt    
+}
+.pTipProcWide
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 7pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTipProcWider
+{
+    BACKGROUND-COLOR: #eaffef;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 2pt;
+    MARGIN-LEFT: 5pt;
+    MARGIN-TOP: 6pt;
+    PADDING-BOTTOM: 2pt;
+    PADDING-LEFT: 2pt;
+    PADDING-RIGHT: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTo_procedure
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTo_procedure_after
+{
+    COLOR: navy;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTo_procedure_dd
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: underline
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 16pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTo_procedure_after_dd
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    TEXT-DECORATION: underline
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 18pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pVersion
+{
+    COLOR: #b22222;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 16pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: center;
+    TEXT-INDENT: 0pt
+}
+.pWelcome_heading_WW
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 12pt;
+    MARGIN-LEFT: 14pt;
+    MARGIN-TOP: 6pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 0pt
+}
+.pTOC1
+{
+    FONT-SIZE: 13pt;
+    FONT-WEIGHT: bold
+}
+.pTOC2
+{
+    FONT-SIZE: 11pt
+}
+.pTOC3
+{
+    FONT-SIZE: 10pt
+}
+.pTOC4
+{
+    FONT-SIZE: 9pt
+}
+.cBold_italic
+{
+    FONT-STYLE: italic
+    FONT-WEIGHT: bold
+}
+.cCode
+{
+}
+.cCodeEmphasis
+{
+    FONT-STYLE: italic
+}
+.cCodeStrong
+{
+    FONT-WEIGHT: bold
+}
+.cEmphasis
+{
+    FONT-STYLE: italic
+}
+.cEmphasisUnderline
+{
+    FONT-STYLE: italic;
+    TEXT-DECORATION: underline
+}
+.cExample
+{
+    FONT-FAMILY: Courier, Courier New, ms sans serif;
+}
+.cFunction
+{
+    FONT-WEIGHT: bold
+}
+.cItalic
+{
+    FONT-STYLE: italic
+}
+.cStrong
+{
+    FONT-WEIGHT: bold
+}
+.cStrongUnderline
+{
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: underline
+}
+.cSubScript
+{
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.cSuperScript
+{
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.cURL_example
+{
+    FONT-FAMILY: Courier, Courier New, ms sans serif;
+    TEXT-DECORATION: underline
+}
+.cWebJump
+{
+}
+blockquote.indent
+{
+ margin-left: 6pt
+}
+table.indent
+{
+ margin-left: 14pt
+}

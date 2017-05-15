@@ -1,0 +1,1678 @@
+/*<meta />*/
+/* This header may be removed before distributing to customers. 
+
+FILE:         _HP_IE.css
+DESCRIPTION:  Cascading Style Sheet for HP software products
+MODIFIED:     September 24, 2012
+LEVEL         CSS Level 2 (plus support for Madcap Flare Webhelp)
+VERSION:      3.51
+
+*/
+
+/* Paragraphs */
+
+body
+{
+	color: #000000;
+	font-family: Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+	font-size: 0.8em;
+	line-height: normal;
+        margin-bottom: 1.1em;
+	mc-hyphenate: never;
+}
+
+p 
+{ 
+       margin-top: 0em;
+       margin-bottom: 1.1em;
+}
+
+p.avoidPageBreak
+{
+	page-break-inside: avoid;
+}
+
+p.hanging_indent 
+{
+	text-indent: -25px;
+        padding-left: 25px;
+}
+
+/* Links */
+
+a
+{
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #3A83E6;
+}
+
+a:visited
+{
+	color: #800080;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a.avoidPrint
+{
+}
+
+a.MiniTOC1:link,
+a.MiniTOC2:link,
+a.MiniTOC3:link,
+a.MiniTOC4:link,
+a.MiniTOC5:link,
+a.MiniTOC6:link,
+a.MiniTOC7:link,
+a.MiniTOC8:link
+{
+	font-weight: normal;
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+a.MiniTOC1:visited,
+a.MiniTOC2:visited,
+a.MiniTOC3:visited,
+a.MiniTOC4:visited,
+a.MiniTOC5:visited,
+a.MiniTOC6:visited,
+a.MiniTOC7:visited,
+a.MiniTOC8:visited
+{
+	color: #800080;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a.MiniTOC1:hover,
+a.MiniTOC2:hover,
+a.MiniTOC3:hover,
+a.MiniTOC4:hover,
+a.MiniTOC5:hover,
+a.MiniTOC6:hover,
+a.MiniTOC7:hover,
+a.MiniTOC8:hover
+{
+	text-decoration: underline;
+}
+
+a.pop
+{
+	color: #3A83E6;
+}
+
+a.pop:visited
+{
+	color: #800080;
+}
+
+a.pop:hover
+{
+	text-decoration: underline;
+}
+
+a.Popup 
+{
+	text-decoration: none;
+	content: "\0000a0";
+	padding-right: 18px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url('./_HP_DropDownClosed.gif');
+	display: inline;
+}
+
+a.Popup:hover
+{
+	text-decoration: underline;
+}
+
+/* Miscellaneous Styles */
+
+abbr
+{
+	font-variant: normal;
+}
+
+acronym
+{
+	font-variant: normal;
+}
+
+address
+{
+	font-style: inherit;
+}
+
+blockquote
+{
+	margin: 0;
+}
+
+/* Headings */
+
+h1
+{
+	color: #003366;
+	font-weight: bold;
+	font-size: 150%;
+	line-height: normal;
+}
+	
+h1.chapternum
+	{
+		mc-disabled: true;
+	}
+
+h1.partnum
+	{
+		mc-disabled: true;
+	}
+
+h2
+{
+	color: #003366;
+	font-weight: bold;
+	font-size: 130%;
+	line-height: normal;
+}
+
+h3
+{
+        mc-disabled: true;
+}
+
+h4
+{
+        mc-disabled: true;
+}
+
+h5
+{
+        mc-disabled: true;
+}
+
+h6
+{
+        mc-disabled: true;
+}
+
+/* Rules */
+
+hr
+{
+	color: #999999;
+	height: 0.05em;
+	width: 100%;
+}
+
+/* Images */
+
+img
+{
+	border: none;
+}
+
+img.floatLeft
+{
+	border: none;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+}
+
+img.floatRight
+{
+	border: none;
+	display: inline;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+img.z_migration_tba_PDF
+{
+	max-width: 100%;
+}
+
+
+/* Definition list tags, used in API docs */
+
+dl
+{
+	margin: 0;
+}
+
+dt
+{
+	margin-top: 0.8em;
+}
+
+dd
+{
+	margin-left: 20px;
+}
+
+/* Lists */
+
+ol
+{
+	margin-left: 20px;
+	margin-top: 0.5em;
+	padding: 0px;
+}
+
+ul
+{
+	margin-left: 8px;
+	margin-top: 0.5em;
+	padding: 0px;
+}
+
+ol li
+{
+	list-style-type: decimal;
+	margin-left: 8px;
+	margin-bottom: 0.5em;
+}
+
+ul li
+{
+	list-style-type: disc;
+	margin-left: 8px;
+	margin-bottom: 0.5em;
+}
+
+ol li p,
+ul li p
+{
+	margin-left: 0pt;
+	margin-bottom: 8pt;
+}
+
+ul ul li p,
+ul ol li p,
+ol ul li p,
+ol ol li p
+{
+	margin-left: 0pt;
+	margin-bottom: 8pt;
+}
+
+ul ul ul li p,
+ul ol ol li p,
+ul ul ol li p,
+ul ol ul li p,
+ol ul ul li p,
+ol ol ol li p,
+ol ul ol li p,
+ol ol ul li p
+{
+	margin-left: 0pt;
+	margin-bottom: 8pt;
+}
+
+ol ul li,
+ul ul li
+{
+	list-style-type: disc;
+	margin-left: 6px;
+	margin-bottom: 0.5em;
+}
+
+ol ol li,
+ul ol li
+{
+	list-style-type: lower-alpha;
+	margin-left: 4px;
+	margin-bottom: 0.5em;
+}
+
+ol ol ol li,
+ol ul ol li,
+ul ol ol li,
+ul ul ol li
+{
+	list-style-type: lower-roman;
+	margin-left: 8px;
+}
+
+ol ul ul li,
+ol ol ul li,
+ul ul ul li,
+ul ol ul li
+{
+	list-style-type: disc;
+	margin-left: 8px;
+}
+
+menu
+{
+	margin: 0;
+}
+
+/* Paragraph Classes */
+
+p.Index1,
+p.Index2,
+p.Index3,
+p.Index4
+{
+	white-space: normal;
+}
+
+/* Admonitons */
+
+/* indicates deprecation of methods in APIs and command line tools */
+
+div.Admonition_Deprecated
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	padding-top: 11px;
+	padding-left: 9px;
+	padding-bottom: 0px;
+	background-color: #e4e5e6;
+	border: 1px;
+	border-style: solid;
+	border-color: #e4e5e6;
+}
+
+div.Admonition_Deprecated>p:first-child
+{
+	mc-auto-number-format: '{b}Deprecated: {/b}';	/* Localizable */ 
+}
+
+div.Admonition_Note, div.Admonition_Caution, div.Admonition_Tip
+{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 0px;
+                margin-right: 5px;
+                padding-top: 11px;
+                padding-left: 9px;
+                padding-bottom: 0px;
+                background-color: #e4e5e6;
+                border: 1px;
+                border-style: solid;
+		border-color: #e4e5e6;
+}
+
+div.Admonition_Note>p:first-child
+{
+                mc-auto-number-format: '{b}Note: {/b}';	/* Localizable */ 
+}
+
+div.Admonition_Caution>p:first-child
+{
+                mc-auto-number-format: '{b}Caution: {/b}';	/* Localizable */ 
+
+}
+
+div.Admonition_Tip>p:first-child
+{
+                mc-auto-number-format: '{b}Tip: {/b}';	/* Localizable */ 
+
+}
+
+div.avoidPageBreak
+{
+                 page-break-inside: avoid;
+}
+
+/* Table styles */
+
+table
+{
+	color: #000000;
+	background-color: #F2F3F4;
+	border: none;
+	caption-side: top;
+	font-size: 100%;
+	line-height: normal;
+	margin-bottom: 1.1em;
+	mc-caption-continuation: ', continued';	/* Localizable */ 
+	mc-caption-repeat: true;
+	text-align: left;
+}
+
+table.no_lines, table.no_lines td, table.no_lines th
+{      
+            border: none;
+            border-collapse: collapse;
+            background-color: transparent; 
+            color: #000000;         
+}
+
+caption
+{
+	color: #000000;
+	text-align: left;
+	font-weight: bold;
+	font-size: 105%;
+}
+
+th
+{
+	background-color: #003366;
+	border-bottom: thin solid #003366;
+	border-top: .1em solid #003366;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0.5em;
+	vertical-align: bottom;
+	text-align: left;
+}
+
+th.center
+{
+	text-align: center;
+}
+
+tr
+{
+	page-break-inside: avoid;
+}
+
+tr.allowBreak
+{
+	page-break-inside: auto;
+}
+
+td
+{
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0.15em #F2F3F4;
+	padding: 0.5em;
+	vertical-align: top;
+	text-align: left;
+}
+
+td.center
+{
+	text-align: center;
+}
+
+th.null
+{
+	border: none;
+	color: #000000;
+}
+
+td.null
+{
+	border: none;
+	border-collapse: collapse;
+}
+
+
+/* Paragraph Tag for Code */
+
+pre
+{
+	font-family: 'Courier New';
+	font-size: 95%;
+	line-height: 1.25em;
+}
+
+pre.hanging_indent
+{
+      	text-indent: -25px;
+        padding-left: 25px;
+}
+
+/* Character Tag for Code  */
+
+code
+{
+	font-family: 'Courier New';
+	font-size: 100%;
+}
+
+/* backgrounds for examples */
+
+div.example
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	padding-top: 11px;
+	padding-left: 9px;
+	padding-bottom: 0px;
+	background-color: #e4e5e6;
+	border: 1px;
+	border-style: solid;
+	border-color: #e4e5e6;
+}
+
+/* MadCap Flare Styles */
+
+MadCap|breadcrumbsProxy
+{
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	color: #3A83E6;
+	mc-breadcrumbs-count: 5;
+	mc-breadcrumbs-prefix: ' ';
+	border-bottom: 1px solid #999999;
+}
+
+MadCap|breadcrumbsProxy:visited
+{
+	color: #000000;
+}
+
+span.MCBreadcrumbsDivider, span.MCBreadcrumbs
+{		
+	color: #000000;
+}
+
+MadCap|conceptLink
+{
+	color: #3A83E6;
+	text-decoration: none;	
+}
+
+MadCap|conceptLink:link
+{
+	color: #3A83E6;
+}
+
+MadCap|conceptLink:visited
+{
+	color: #3A83E6;
+}
+	
+MadCap|conceptLink:hover
+{
+	text-decoration: underline;
+	mc-format: '{quote}{para}{quote}'; /* Localizable */ 
+}
+
+MadCap|conceptLink.ListFormatHeader
+{
+	color: #000000;
+	mc-help-control-display: list;
+	mc-image: none;
+	font-weight: bold;
+}
+
+MadCap|conceptLinkControlListItemLink, MadCap|keywordLinkControlListItemLink, MadCap|relatedTopicsControlListItemLink
+{
+		font-weight: normal;
+}
+
+MadCap|conceptLinkControlListItemLink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|dropDown
+{
+       margin-bottom: 1.1em;
+}
+
+MadCap|dropDownHead
+{
+       margin-bottom: 0.5em;
+       page-break-after: avoid;
+}
+
+MadCap|dropDownHead.boldPrint
+{
+       margin-bottom: 0.5em;
+       page-break-after: avoid;
+}
+
+MadCap|dropDownBody
+{
+	margin-top: 0.7em;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|expanding
+{
+	mc-image-position: right;
+}
+
+MadCap|expandingHead:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm
+{
+	color: #3A83E6;
+	font-weight: bold;
+	mc-image-position: right;
+	text-decoration: none;
+	mc-closed-image: url('./_HP_Glossary.png');
+	mc-open-image: url('./_HP_Glossary.png');
+}
+
+MadCap|glossaryTerm:focus
+{
+	color: #3A83E6;
+	font-weight: normal;
+}
+
+MadCap|glossaryTerm:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Expanding
+{
+	color: #3A83E6;
+	font-weight: normal;
+}
+
+MadCap|glossaryTerm.Expanding:focus
+{
+	color: #3A83E6;
+}
+
+MadCap|glossaryTerm.Expanding:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Hyperlink
+{
+	color: #3A83E6;
+}
+
+MadCap|glossaryTerm.Hyperlink:focus
+{
+	color: #3A83E6;
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Hyperlink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|glossaryTerm.Popup
+{
+	color: #3A83E6;
+}
+
+MadCap|glossaryTerm.Popup:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|helpControlMenu
+{
+	background-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-color: #ffffff;
+}
+
+MadCap|helpControlMenuItem
+{
+	background-color: #ffffff;
+	background-position: right;
+	border: 1px solid #999999;
+	padding: 2px 2px 2px 2px;
+	color: #3A83E6;
+	border-color: #ffffff;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	background-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-top-color: #ffffff;
+	color: #3A83E6;
+	text-decoration: underline;
+}
+
+MadCap|indexProxy
+{
+	border-top-style: none;
+	border-top-width: 0px;
+}
+
+MadCap|keywordLink:link
+{
+	color: #3A83E6;
+}
+
+MadCap|keywordLink:visited
+{
+	color: #3A83E6;
+}
+
+MadCap|keywordLink:focus
+{
+	color: #3A83E6;
+	text-decoration: underline;
+}
+
+MadCap|keywordLink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|keywordLink.ListFormatHeader
+{
+	color: #000000;
+	mc-help-control-display: list;
+	mc-image: none;
+	font-weight: bold;
+}
+
+MadCap|keywordLinkControlListItemLink:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|miniTocProxy
+{
+     	margin-top: -1.7em;
+	border-top: solid 0px #ffffff;
+}
+
+MadCap|popup:link
+{
+	color: #3A83E6;
+	text-decoration: underline;
+}
+
+MadCap|popup:visited
+{
+	color: #800080;
+}
+
+MadCap|popup:focus
+{
+	color: #003366;
+	text-decoration: underline;
+}
+
+MadCap|popup:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|popupBody
+{
+	clear: both;
+	float: right;
+	height: auto;
+	border-color: #999999;
+	text-indent: 0;
+}
+
+MadCap|popupHead
+{
+	color: #3A83E6;
+	text-decoration: none;
+	content: "\0000a0";
+	padding-right: 18px;
+	display: inline;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url('./_HP_DropDownClosed.gif');
+}
+
+MadCap|popupHead:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|relatedTopics
+{
+	color: #3A83E6;
+	mc-label: 'Related Information';	/* Localizable */ 
+	mc-use-custom-sort-order: true;
+	text-decoration: none;
+}
+
+MadCap|relatedTopics:focus
+{
+	color: #003366;
+}
+
+MadCap|relatedTopics:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|relatedTopics.ListFormatHeader
+{
+        color: #000000;
+        font-weight: bold;
+        mc-help-control-display: list;
+        mc-image: none;
+}
+
+MadCap|relationshipsProxy
+{
+	font-size: 1.0em;
+}
+
+MadCap|relationshipsHeading
+{
+
+	font-size: 1.0em;
+	margin-bottom: 0.3em;
+	margin-top: 1.0em;
+}
+
+MadCap|relationshipsHeading.concept
+{
+	font-size: 1.0em;
+}
+
+MadCap|relationshipsHeading.reference
+{
+	font-size: 1.0em;
+}
+
+MadCap|relationshipsHeading.task
+{
+	font-size: 1.0em;
+}
+
+MadCap|relationshipsItem
+{
+	font-size: 1.0em;
+	margin-bottom: 0em;
+	margin-left: 1.2em;
+	display: list-item;
+	list-style-type: disc;
+}
+
+MadCap|tocProxy
+{
+	mc-output-support: pdf;
+}
+
+MadCap|toggler
+{
+	mc-image-position: right;
+}
+
+MadCap|toggler:link
+{
+	color: #3A83E6;
+}
+
+MadCap|toggler:visited
+{
+	color: #800080;
+}
+
+MadCap|toggler:focus
+{
+	color: #003366;
+	text-decoration: underline;
+}
+
+MadCap|toggler:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|xref
+{
+	color: #3A83E6;
+	text-decoration: none;
+	mc-format: '{para}';
+}
+
+MadCap|xref:link
+{
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+MadCap|xref:visited
+{
+	color: #800080;
+}
+
+MadCap|xref:focus
+{
+	color: #003366;
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	text-decoration: underline;
+}
+
+MadCap|xref.noNum
+{
+	color: #3A83E6;
+	mc-format: '{para}';
+}
+
+MadCap|xref.noNum:visited
+{
+	color: #800080;
+	mc-format: '{para}';
+}
+
+MadCap|xref.pageNumOnly
+{
+	mc-format: '{page}';
+}
+
+span.MCPopup > a:link
+{
+	color: #3A83E6;
+	text-decoration: none;
+	content: "\0000a0";
+	padding-right: 18px;
+	display: inline;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url('./_HP_DropDownClosed.gif');
+}
+
+span.MCPopup > a:hover
+{ 
+	text-decoration: underline;
+ 
+}
+
+span.noGlossary
+{
+	mc-disable-glossary-terms: true;
+}
+
+/* using for Flare 7.1 workaround to include _HP_logo.png in output files */
+/* when Target,Advanced tab, Exclude content not linked directly or indirectly from the target is set */
+ins
+{
+	background-image: url("../MasterPages/_HP_logo.png");
+	background-image: url("../MasterPages/_HP_logo_snowball.png");
+}
+ 
+/* for bi-directional text */
+/*
+dir
+{
+	margin: 0;
+	display: none;
+}
+*/
+
+/* START for iDoc */
+
+html.idocTopic
+{
+			   mc-disabled: true;
+               mc-master-page: url('../_HP_iDoc_Resources/_HP_iDoc-inTopic_MasterPage.flmsp');
+}
+
+html.idocTopic_breadcrumbs
+{
+				mc-disabled: true;
+                mc-master-page: url('../_HP_iDoc_Resources/_HP_iDoc-inTopic_breadcrumbs_MasterPage.flmsp');
+}
+
+
+div.iDoc_imagezoom,
+div#iDoc_optionblock,
+div.iDoc_optiongroupdesc,
+div.iDoc_options,
+div#iDoc_stepblock,
+div.iDoc_step,
+div.iDoc_stepbody,
+div.iDoc_textblock,
+div.iDoc_optiongroup,
+div.iDoc_textblockbody {mc-disabled: true;}
+
+
+/* END for iDoc */
+
+
+/* old dropdown head style to be deprecated */
+
+MadCap|dropDownHead.z_migration_tba_PDF
+{
+       margin-bottom: 0.5em;
+}
+
+/* end of deprecated section */
+
+
+/* Print Output */
+
+@media print
+{
+ 	
+/* Paragraphs */
+
+	body
+	{
+		color: #000000;
+		font-family: Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+		font-size: 10pt;
+		line-height: normal;
+		margin-bottom: 12pt;
+		padding-left: 16pt;
+		mc-hyphenate: never;
+	}
+
+	p
+	{
+		orphans: 2;
+		widows: 2;
+	}
+
+	p.MiniTOC1
+	{
+		color: #003366;
+		font-weight: normal;
+	}
+
+	p.MiniTOC2
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC3
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC4
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC5
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC6
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC7
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC8
+	{
+		color: #003366;
+	}
+
+	p.MiniTOC9
+	{
+		color: #003366;
+	}
+
+	p.pdf
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+	}
+
+	p.PDFheader
+	{
+		padding-left: -16pt;
+		margin-top: 6pt;
+		margin-bottom: 6pt;
+	}
+
+
+/* Links */
+
+	a:link
+	{
+		text-decoration: none;
+		color: #003366;
+	}
+	
+	a.pop
+	{
+		color: #000000;
+	}
+	
+	a.avoidPrint
+	{
+			display: none;
+	}
+
+/* Headings */
+
+	h1
+	{
+		color: #003366;
+		font-size: 220%;
+		line-height: normal;
+		page-break-after: avoid;
+		margin-left: -14pt;
+	}
+
+ 	
+ 	
+	h1.chapternum
+	{
+		border-bottom: solid 1.3mm #003366;
+		mc-auto-number-format: 'Chapter {chapnum}: '; /* Localizable */ 
+		page-break-after: avoid;
+	}
+	
+	h1.partnum
+	{
+		border-bottom: solid 1.3mm #003366;
+		margin-left: -14pt;
+		padding-left:0pt;
+		mc-auto-number-format: 'Part {volnum}: '; /* Localizable */ 
+		page-break-after: avoid;
+	}
+	
+	h2
+	{
+		color: #003366;
+		font-size: 200%;
+		page-break-after: avoid;
+		padding-left: -14pt;
+	}
+	
+	h2.chapternum
+	{
+		border-bottom: solid 1.3mm #003366;
+		font-size: 200%;
+		margin-left: -14pt;
+		padding-left:0pt;
+		mc-auto-number-format: 'Chapter {chapnum}: '; /* Localizable */ 
+		page-break-after: avoid;
+	}
+
+	
+	h3
+	{
+		color: #003366;
+		font-size: 180%;
+		page-break-after: avoid;
+		padding-left: -14pt;
+	}
+
+	h4
+	{
+		color: #003366;
+		font-size: 160%;
+		page-break-after: avoid;
+		padding-left: -14pt;
+	}
+
+	h5
+	{
+		color: #003366;
+		font-size: 140%;
+		page-break-after: avoid;
+		padding-left: -14pt;
+	}
+
+	h6
+	{
+		color: #003366;
+		font-size: 120%;
+		line-height: normal;
+		page-break-after: avoid;
+		padding-left: -14pt;
+	}
+	
+	h2.noTOC, h3.noTOC, h4.noTOC, h5.noTOC, h6.noTOC
+	{
+		mc-heading-level: 0;
+	}
+	
+/* Rules */
+
+	hr.pdfTitle
+	{
+		background-color: #003366;
+		height: 9pt;
+		width: 504pt;
+	}
+
+/* Images */
+
+	img
+	{
+		orphans: 2;
+		widows: 2;
+		float: none;
+		page-break-inside: auto;
+	}
+
+/* Lists */
+
+	li.pdf
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		list-style-type: disc;
+		margin-left: 10pt;
+	}
+
+	ol
+	{
+		margin-bottom: 8pt;
+	}
+	
+	ul
+	{
+		margin-bottom: 8pt;
+	}
+	
+	ol li p,
+	ul li p
+	{
+		margin-left: 0pt;
+		margin-bottom: 8pt;
+	}
+	
+	ul ul li p,
+	ul ol li p,
+	ol ul li p,
+	ol ol li p
+	{
+		margin-left: 0pt;
+		margin-bottom: 8pt;
+	}
+
+	ul ul ul li p,
+	ul ol ol li p,
+	ul ul ol li p,
+	ul ol ul li p,
+	ol ul ul li p,
+	ol ol ol li p,
+	ol ul ol li p,
+	ol ol ul li p
+	{
+		margin-left: 0pt;
+		margin-bottom: 8pt;
+	}
+
+	ol li
+	{
+		list-style-type: decimal;
+		margin-bottom: 8pt;
+		margin-left: 5pt;
+	}
+
+	ul li
+	{
+		list-style-type: disc;
+		margin-bottom: 8pt;
+		margin-left: 8pt;
+	}
+
+	ul ol li,
+	ol ol li
+	{
+		list-style-type: lower-alpha;
+		margin-bottom: 8pt;
+		margin-left: 2pt;
+	}
+
+	ul ul li,
+	ol ul li
+	{
+		list-style-type: square;
+		margin-bottom: 8pt;
+		margin-left: 6pt;
+	}
+
+	ol ol ol li,
+	ol ul ol li,
+	ul ol ol li,
+	ul ul ol li
+	{
+		list-style-type: lower-roman;
+		margin-bottom: 8pt;
+		margin-left: 8pt;
+	}
+
+	ul ul ul li,
+	ul ol ul li,
+	ol ul ul li,
+	ol ol ul li
+	{
+		list-style-type: circle;
+		margin-bottom: 8pt;
+		margin-left: 8pt;
+	}
+
+/* Admonitons */
+
+	div.Admonition_Note, div.Admonition_Caution, div.Admonition_Tip, div.Admonition_Deprecated
+	{
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+/* backgrounds for examples */
+
+	div.example
+	{
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+/* Table styles */
+
+	table
+	{
+		border-collapse: collapse;
+		margin-bottom: 1.1em;
+		background-color: transparent;
+	}
+
+	td
+	{
+		border: 0.1em solid black;
+		background-color: transparent;
+	}
+	
+	td.null
+	{
+		border: none;
+		border-collapse: collapse;
+		background-color: transparent;
+	}
+
+/* MadCap Flare Styles */
+
+	a.MCDropDownHotSpot_0:link 
+	{
+		color: #000000;
+	}
+
+	MadCap|dropDownHead.boldPrint
+	{
+	       font-size: 120%;
+	       font-weight: bold;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{quote}{para}{quote} {pageref}'; /* Localizable */ 
+	}
+
+	MadCap|xref
+	{
+		color: #003366;
+	}
+
+	MadCap|xref.noNum
+	{
+		color: #003366;
+		mc-format: '{quote}{para}{quote}'; /* Localizable */ 
+	}
+
+	MadCap|popup
+	{
+		color: #000000;
+	 
+	}
+
+	MadCap|popupHead
+	{
+		color: #000000;
+	}
+
+	MadCap|toggler
+	{
+		color: #000000;
+	}
+
+/* Modifications to MadCap Flare styles to show drop-down text  */
+	
+	div.MCDropDownBody,div.MCDropDownBody_0
+	{
+		display: block !important;
+	}
+
+	img.MCDropDownIcon,img.MCDropDownBody_0
+	{
+		display: none !important;
+	}
+
+/* TOC */
+
+	MadCap|tocProxy
+	{
+		border-top-style: none;
+	}
+
+	p.toc1
+	{
+		color: #003366;
+		font-weight: normal;
+		font-size: 12pt;
+		line-height: normal;
+		margin-left: 0in;
+		orphans: 2;
+		widows: 2;
+	}
+
+	p.toc2
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.2in;
+	}
+
+	p.toc3
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.40in;
+	}
+
+	p.toc4
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.6in;
+	}
+
+	p.toc5
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		orphans: 2;
+		widows: 2;
+		margin-left: 0.8in;
+	}
+
+	p.toc6
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 10pt;
+		line-height: normal;
+		margin-left: 1.0in;
+		orphans: 2;
+		widows: 2;
+	}
+
+/* Glossary and  Index Page Styles */
+
+	MadCap|glossaryProxy 
+	{ 
+		border-top-style: none; 
+		border-top-width: 0px; 
+	} 
+
+	MadCap|indexProxy 
+	{ 
+		border-top-style: none; 
+		border-top-width: 0px; 
+	}
+
+	div.GlossaryPageHeading
+	{
+		color: #000000;
+		font-family: Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+		font-size: 10pt;
+		font-weight: bold;
+		line-height: normal;
+		margin-bottom: 1.1em;
+		mc-hyphenate: never;
+	}
+
+	div.GlossaryPageDefinition
+	{
+		color: #000000;
+		font-family: Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+		font-size: 10pt;
+		font-weight: normal;
+		line-height: normal;
+		margin-bottom: 1.1em;
+		margin-left: 10pt;
+		mc-hyphenate: never;
+	}
+
+	div.GlossaryPageEntry
+	{
+		font-family: Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+		font-size: 10pt;
+		font-weight: bold;
+		line-height: normal;
+		margin-bottom: 1.1em;
+		mc-hyphenate: never;
+		color: #006400;
+	}
+
+	div.GlossaryPageTerm
+	{
+		color: #000000;
+		font-family: Arial, Tahoma, 'Lucida Sans Unicode', sans-serif;
+		font-size: 10pt;
+		font-weight: bold;
+		line-height: normal;
+		margin-bottom: 1.1em;
+		mc-hyphenate: never;
+	}
+	
+/* old dropdown head style to be deprecated */
+
+	MadCap|dropDownHead.z_migration_tba_PDF
+	{
+	       font-size: 120%;
+	       font-weight: bold;
+	       margin-bottom: 0.5em;
+	       page-break-after: avoid;
+	}
+	
+/* end of deprecated section */
+
+}
+
+@media iDoc 
+{ 
+
+	html.idocTopic,
+	html.idocTopic_breadcrumbs,
+	div.iDoc_imagezoom,
+	div#iDoc_optionblock,
+	div.iDoc_optiongroupdesc,
+	div.iDoc_options,
+	div#iDoc_stepblock,
+	div.iDoc_step,
+	div.iDoc_stepbody,
+	div.iDoc_textblock,
+	div.iDoc_optiongroup,
+	div.iDoc_textblockbody {mc-disabled: false;}
+
+	div.iDoc_optiongroup, div.iDoc_step
+	{
+		mc-next-tag: h2; 
+	}
+
+	div.iDoc_step h2, div.iDoc_options
+	{
+		mc-next-tag: p;
+	}
+
+	div.iDoc_optiongroup h2
+	{
+		mc-next-tag: div;
+	}
+
+	div.iDoc_optiongroup
+	{
+		border-top: 1px solid #aaaaaa;
+		border-bottom: 1px solid #aaaaaa;
+		padding: 4px;
+	}
+
+	div.iDoc_options div
+	{
+		padding-left: 10px;
+		margin-bottom: 1em;
+		font-style: italic;
+	}
+}
+
+
+@media PartChapNum 
+{ 
+
+	h1.chapternum
+	{
+		mc-disabled: false;
+	}
+
+	h1.partnum
+	{
+		mc-disabled: false;
+	}
+
+}
+
+/* copyright 2007-2012 Hewlett-Packard Development Company, L.P. */

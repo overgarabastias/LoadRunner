@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2_smp_21_.xml
+URL1=http://192.168.17.33:7676/smp_21_
+Total=3
+ContentType=text/xml
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+FileName2=t2_client_model_v5_variation_0.html
+URL2=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb
+FileName3=t2_client_model_v5_ext_variation_0.html
+URL3=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+[ProtocolInfo]
+ProtocolId=QTWeb

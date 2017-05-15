@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+Date: Tue, 09 May 2017 18:50:35 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Sun, 17 May 1998 03:00:00 GMT
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Credentials: true
+Content-Type: image/gif
+Server: Golfe2
+Content-Length: 35
+Alt-Svc: quic=":443"; ma=2592000; v="37,36,35"
+

@@ -1,0 +1,8 @@
+[parameter:ramdom]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="244"
+MinValue="1"
+OriginalValue=""
+ParamName="ramdom"
+Type="Random"

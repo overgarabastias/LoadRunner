@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+X-Content-Type-Options: nosniff
+Date: Tue, 09 May 2017 18:50:06 GMT
+Server: HTTP server (unknown)
+Content-Length: 66
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: quic=":443"; ma=2592000; v="37,36,35"
+

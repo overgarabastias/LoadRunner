@@ -1,0 +1,665 @@
+/*<meta />*/
+
+/*
+// {{MadCap}} //////////////////////////////////////////////////////////////////
+// Copyright: MadCap Software, Inc - www.madcapsoftware.com ////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// <version>8.0.0.0</version>
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+.MCDropDown
+{
+	
+}
+
+.MCDropDownHead
+{
+	
+}
+
+.MCDropDownHotSpot
+{
+	
+}
+
+.MCDropDownBody
+{
+	
+}
+
+.MCDropDownIcon
+{
+	border: none;
+}
+
+.MCExpanding
+{
+	
+}
+
+.MCExpandingHead
+{
+	
+}
+
+.MCExpandingBody
+{
+	
+}
+
+.MCExpandingIcon
+{
+	border: none;
+}
+
+.MCKLink
+{
+	
+}
+
+.MCKLinkSpot
+{
+	
+}
+
+.MCKLinkBody
+{
+	background-color: #bbccdd;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	cursor: pointer;
+	cursor: hand;
+	filter: alpha( opacity = 100 );
+	-moz-opacity: 1.0;
+	z-index: 2;
+}
+
+.MCKLinkBodyBG
+{
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	filter: alpha( opacity = 100 );
+	-moz-opacity: 1.0;
+	z-index: 1;
+}
+
+.MCKLinkBodyCell_Highlighted
+{
+	padding: 5px;
+	background-color: Blue;
+	color: White;
+}
+
+.MCKLinkBodyCell
+{
+	padding: 5px;
+	background-color: Transparent;
+	color: Black;
+}
+
+.MCKeywordLinkIcon
+{
+	border: none;
+}
+
+.MCConceptLinkIcon
+{
+	border: none;
+}
+
+.MCRelatedTopicsIcon
+{
+	border: none;
+}
+
+.MCPopup
+{
+	
+}
+
+a.MCPopupSpot
+{
+	
+}
+
+.MCPopupBody
+{
+	background-color: #ffffff;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 2;
+}
+
+.MCPopupBodyBG
+{
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 1;
+}
+
+.MCTextPopup
+{
+	
+}
+
+.MCTextPopupSpot
+{
+	
+}
+
+.MCTextPopupBody
+{
+	background-color: #bbccdd;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	overflow: auto;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 2;
+}
+
+.MCTextPopupBodyBG
+{
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 1;
+}
+
+.MCPopupThumbnail
+{
+	border: none;
+}
+
+.MCPopupThumbnail_Popup
+{
+	border: solid 1px Gray;
+	position: absolute;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 102;
+}
+
+.MCToggler
+{
+	
+}
+
+.MCTogglerIcon
+{
+	border: none;
+}
+
+div.MCDialogWrapper
+{
+	width: 400px;
+	position: fixed;
+	z-index: 110;
+}
+
+div.MCDialog
+{
+	width: 400px;
+	position: absolute;
+	padding: 10px;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 2;
+}
+
+div.MCDialogShadow
+{
+	width: 400px;
+	position: absolute;
+	padding: 10px;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 1;
+}
+
+div.MCDialog table.MCDialogOuterTable
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+div.MCDialog table.MCDialogOuterTable td.Label
+{
+	vertical-align: top;
+}
+
+endnotesBlock
+{
+	display: block;
+}
+
+endnoteBlock
+{
+	display: block;
+}
+
+footnotesBlock
+{
+	display: block;
+}
+
+footnoteBlock
+{
+	display: block;
+}
+
+div.MCBreadcrumbsBox_0
+{
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	color: #3A83E6;
+	border-bottom: 1px solid #999999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+a._0
+{
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+a.MCXref_0
+{
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+a.xref_1
+{
+	color: #3A83E6;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+div.MCKLinkBody
+{
+	background-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-color: #ffffff;
+	color: #000000;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+td.MCKLinkBodyCell
+{
+	background-color: #ffffff;
+	background-position: right;
+	border: 1px solid #999999;
+	padding: 2px 2px 2px 2px;
+	color: #3A83E6;
+	border-color: #ffffff;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+
+td.MCKLinkBodyCell_Highlighted
+{
+	background-color: #ffffff;
+	background-position: right;
+	border: 1px solid #999999;
+	padding: 2px 2px 2px 2px;
+	color: #3A83E6;
+	border-color: #ffffff;
+	font-family: sans-serif;
+	font-size: 10pt;
+	border-bottom-color: #ffffff;
+	border-top-color: #ffffff;
+	text-decoration: underline;
+}
+
+a.MCConceptLinkControlListItemLink
+{
+	font-weight: normal;
+}
+
+a.MCKeywordLinkControlListItemLink
+{
+	font-weight: normal;
+}
+
+a.MCRelatedTopicsControlListItemLink
+{
+	font-weight: normal;
+}
+
+a.MCConceptLink_0
+{
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+div.MCDropDown_0
+{
+	margin-bottom: 1.1em;
+}
+
+a.MCDropDownHotSpot_0
+{
+	text-decoration: none;
+}
+
+div.MCDropDownHead_z_migration_tba_0
+{
+	margin-bottom: 0.5em;
+	page-break-after: avoid;
+	text-decoration: none;
+}
+
+div.MCDropDownBody_0
+{
+	margin-top: 0.7em;
+}
+
+a.MCTextPopupSpot_0
+{
+	color: #3A83E6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+span.MCTextPopupBody_0
+{
+	position: absolute;
+	overflow: auto;
+	filter: alpha( opacity = 0 );
+	-moz-opacity: 0.0;
+	z-index: 2;
+	clear: both;
+	float: right;
+	height: auto;
+	border-color: #999999;
+	text-indent: 0;
+	color: #000000;
+	background-color: #dcdcdc;
+	border: solid 1px #000000;
+	margin: 0px;
+	padding: 5px;
+}
+
+div.MCDropDownHead_0
+{
+	margin-bottom: 0.5em;
+	page-break-after: avoid;
+	text-decoration: none;
+}
+
+a.MCPopupSpot_0
+{
+	color: #3A83E6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a._0:link
+{
+	color: #3A83E6;
+	text-decoration: underline;
+}
+
+a._0:visited
+{
+	color: #800080;
+	text-decoration: underline;
+}
+
+a._0:focus
+{
+	outline: thin dotted invert;
+}
+
+a._0:hover
+{
+	text-decoration: underline;
+}
+
+a.MCXref_0:link
+{
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+a.MCXref_0:visited
+{
+	text-decoration: none;
+	color: #800080;
+}
+
+a.MCXref_0:focus
+{
+	color: #003366;
+	text-decoration: underline;
+}
+
+a.MCXref_0:hover
+{
+	text-decoration: underline;
+}
+
+a.xref_1:link
+{
+	font-weight: normal;
+	color: #3A83E6;
+	text-decoration: none;
+}
+
+a.xref_1:visited
+{
+	text-decoration: none;
+	font-weight: normal;
+	color: #800080;
+}
+
+a.xref_1:focus
+{
+	color: #003366;
+	text-decoration: underline;
+}
+
+a.xref_1:hover
+{
+	text-decoration: underline;
+}
+
+a.MCHelpControlListItemLink:link
+{
+	
+}
+
+a.MCHelpControlListItemLink:visited
+{
+	
+}
+
+a.MCHelpControlListItemLink:focus
+{
+	
+}
+
+a.MCHelpControlListItemLink:hover
+{
+	
+}
+
+a.MCConceptLinkControlListItemLink:link
+{
+	font-weight: normal;
+}
+
+a.MCConceptLinkControlListItemLink:visited
+{
+	font-weight: normal;
+}
+
+a.MCConceptLinkControlListItemLink:focus
+{
+	
+}
+
+a.MCConceptLinkControlListItemLink:hover
+{
+	text-decoration: underline;
+}
+
+a.MCKeywordLinkControlListItemLink:link
+{
+	font-weight: normal;
+}
+
+a.MCKeywordLinkControlListItemLink:visited
+{
+	font-weight: normal;
+}
+
+a.MCKeywordLinkControlListItemLink:focus
+{
+	
+}
+
+a.MCKeywordLinkControlListItemLink:hover
+{
+	text-decoration: underline;
+}
+
+a.MCRelatedTopicsControlListItemLink:link
+{
+	font-weight: normal;
+}
+
+a.MCRelatedTopicsControlListItemLink:visited
+{
+	font-weight: normal;
+}
+
+a.MCRelatedTopicsControlListItemLink:focus
+{
+	
+}
+
+a.MCRelatedTopicsControlListItemLink:hover
+{
+	
+}
+
+a.MCConceptLink_0:link
+{
+	text-decoration: none;
+	color: #3A83E6;
+}
+
+a.MCConceptLink_0:visited
+{
+	text-decoration: none;
+	color: #3A83E6;
+}
+
+a.MCConceptLink_0:focus
+{
+	
+}
+
+a.MCConceptLink_0:hover
+{
+	text-decoration: underline;
+}
+
+a.MCDropDownHotSpot_0:link
+{
+	text-decoration: none;
+}
+
+a.MCDropDownHotSpot_0:visited
+{
+	text-decoration: none;
+}
+
+a.MCDropDownHotSpot_0:focus
+{
+	
+}
+
+a.MCDropDownHotSpot_0:hover
+{
+	text-decoration: underline;
+}
+
+a.MCTextPopupSpot_0:link
+{
+	color: #3A83E6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.MCTextPopupSpot_0:visited
+{
+	color: #3A83E6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.MCTextPopupSpot_0:focus
+{
+	color: #3A83E6;
+	font-weight: normal;
+}
+
+a.MCTextPopupSpot_0:hover
+{
+	text-decoration: underline;
+}
+
+a.MCPopupSpot_0:link
+{
+	color: #3A83E6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.MCPopupSpot_0:visited
+{
+	color: #3A83E6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.MCPopupSpot_0:focus
+{
+	color: #3A83E6;
+	font-weight: normal;
+}
+
+a.MCPopupSpot_0:hover
+{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--QCCR1K4344-->
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="FuncRef.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="Web Vuser Functions (WEB)|Alphabetical List of Web Vuser Functions">
+    <!-- saved from url=(0014)about:internet -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>web_reg_save_param_xpath</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
+        <style>	
+			html, body 
+			{
+				height: 100%;
+				margin-right:2em;
+			}
+						
+			.wrapper 
+			{
+				min-height: 100%!important;
+				margin: 0 auto -10em; 
+				padding-left: 0.2em
+						
+			}
+
+			footer, .float 
+			{
+				height: 10em; 
+				margin:0;
+				clear: both;
+			}
+
+			div.roundcorners
+			{
+				-moz-border-radius-bottomleft: 1em;
+				border-bottom-left-radius: 1em;
+				-moz-border-radius-topright: 1em;
+				border-top-right-radius: 1em;
+				background-color: #f2f2f2 ;
+				width: 100% !important;
+				padding: 0em;		 
+			}
+			
+			p.footerlink
+			{
+				font-size: .75em;
+				line-height: 1em;
+				padding: 0em;
+				margin-top:0;
+				margin-bottom:.75em;
+			}
+			
+			p.footerlink a,
+			p.footerlink a:visited
+			{
+				color: #5a5a5a;
+			}
+			
+			p.footerlink a:hover
+			{
+				color: #000000!important;
+			}
+						
+			p.spacer
+			{
+				font-size: .5em;
+				line-height: .5em;
+				padding: 0em;
+				margin-top:0;
+				margin-bottom: .5em;
+			}
+	
+    </style>
+        <link href="../Resources/Stylesheets/_HP_IE.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../FuncRef.htm#web/lrFr_web_reg_save_param_xpath.htm">Open topic with navigation</a>
+        </p>
+        <script src="../Resources/MasterPages/_TopNav_Feedback.js">
+        </script>
+        <div class="wrapper">
+            <div class="MCBreadcrumbsBox_0"><span class="MCBreadcrumbsPrefix"> </span><a class="MCBreadcrumbsLink" href="webc/lrFuncRef_WBCAT_Web_Vuser_Funcs.htm">Web Vuser Functions (WEB)</a><span class="MCBreadcrumbsDivider"> &gt; </span><a class="MCBreadcrumbsLink" href="webc/lrFuncRef_WBCAT_Alph_Lst_Web_Funcs.htm">Alphabetical List of Web Vuser Functions</a><span class="MCBreadcrumbsDivider"> &gt; </span><span class="MCBreadcrumbs">web_reg_save_param_xpath</span>
+            </div><a name="kanchor2057"></a>
+            <h1>web_reg_save_param_xpath</h1>
+            <table>
+                <tr>
+                    <td><a href="examples/lrFuncRef_WB_web_rsp_xpath_Example.htm" title="" alt="" class="MCXref xref">Example: web_reg_save_param_xpath</a>
+                    </td>
+                    <td><a href="webc/lrFuncRef_WBCAT_Corr_Funcs.htm" title="" alt="" class="MCXref xref">Correlation Functions</a>
+                    </td>
+                </tr>
+            </table>
+            <p>Registers a request to save dynamic data in an HTML buffer that has been formatted as XML. The data is saved to a parameter.</p>
+            <h2>C Language</h2><pre xml:space="preserve">int <b>web_reg_save_param_xpath</b>( <i>"ParamName=&lt;output parameter name&gt;", "QueryString=&lt;Xpath&gt;"</i>, <i>["ReturnXML=&lt;Yes|No&gt;"</i>,] [<i>"SelectAll=&lt;Yes|No&gt;"</i>,] &lt;<i>List of Attributes</i>&gt;, &lt;<i>Search Filters</i>&gt;,LAST );<span style="font-weight: bold;">&#160;</span></pre>
+            <table>
+                <tr>
+                    <th> Argument
+                    </th>
+                    <th> Description
+                    </th>
+                </tr>
+                <tr>
+                    <td><i>ParamName</i>
+                    </td>
+                    <td> The name of the parameter to create.
+                    </td>
+                </tr>
+                <tr>
+                    <td> <i>QueryString</i> <![CDATA[ ]]></td>
+                    <td> The XPath of the value to save.
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>ReturnXML</i>
+                    </td>
+                    <td>Optional: If <code>ReturnXML=Yes</code>, the data returned in the parameter specified by <i>ParamName</i> includes the entire XML node at the specified XPath, including contained elements. See <a href="examples/lrFuncRef_WB_web_rsp_xpath_Example.htm#Example_with_ReturnXML_Yes" title="" alt="" class="MCXref xref">Example with ReturnXML</a>. If <code>ReturnXML=No</code>, only the value of the element that matches the query is returned. (Default)
+</td>
+                </tr>
+                <tr>
+                    <td><i>SelectAll</i>
+                    </td>
+                    <td>Optional: If <code>SelectAll=Yes</code>, all the occurrences of the match are saved in an array. See <a href="#Saving_Multiple_Matches" class="MCXref xref selected">Saving Multiple Matches</a> below in this topic.</td>
+                </tr>
+                <tr>
+                    <td><i>List of Attributes</i>
+                    </td>
+                    <td> For details of each attribute, see <a href="etc/lrFr_AttsForSaveParamRegFuncts.htm" title="" alt="" class="MCXref xref">Attributes for Save Parameter Registration Functions</a>. Attribute value strings (e.g., "Search=<span style="font-weight: bold;">body"</span>) are not case-sensitive.  See the <a href="#Restrictions" title="" alt="" class="MCXref xref selected">Restrictions</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>SEARCH FILTERS</i>
+                    </td>
+                    <td> Specifies the sections of the buffer to search for the string in. See <a href="etc/lrFr_SearchFltrsForSaveParamRegFncts.htm" title="" alt="" class="MCXref xref">Search Filters for Save Parameter Registration Functions</a>. See the <a href="#Restrictions" title="" alt="" class="MCXref xref selected">Restrictions</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>LAST</i>
+                    </td>
+                    <td> A marker that indicates the end of the argument list.
+                    </td>
+                </tr>
+            </table>
+            <h2>Return Values</h2>
+            <p>This function returns LR_PASS (0) on success, and LR_FAIL (1) on failure.</p>
+            <h2>Parameterization</h2>
+            <p>The values of keyword-value pairs can be parameterized. For example, "ALT={altParam}".</p>
+            <h2>General Information</h2>
+            <p><b>web_reg_save_param_xpath</b> registers a request to find  an XML node within the server response to the next <a href="webc/lrFr_webCat_Action_Funcs.htm">action function</a> and save the string. This function is used when the server response is XML or converted to XML. For example, the function is used in conjunction with Data Format Extensions that output in XML format.  The search does not apply to values returned as a result of calls to asynchronous or cross-step functions.</p>
+            <p>This function registers a request to retrieve dynamic information from the XML and save the information to a parameter. For correlation, enclose the parameter name in braces (e.g., "{param1}") in ensuing function calls which use the dynamic data. The request registered by <b>web_reg_save_param_xpath</b> looks for the the node specified with the QueryString argument and saves the contents of the node, if found.  See also <a href="../_Direct/lrFuncRef_allp_Corr_Statemnts.htm" title="" alt="" class="MCXref xref">Correlating Statements</a>.</p>
+            <p>For more information about XPATH, see <a href="../xml/etc/lrFuncRef_XML_XML_Query.htm" class="MCXref xref">XML Query</a> or search the internet for XPATH.</p>
+            <p><a name="Saving_Multiple_Matches"></a><b>Saving Multiple Matches</b>
+            </p>
+            <p>The <b>web_reg_save_param_xpath</b> function supports array type parameters. When you specify <code>SelectAll=Yes</code>, all the occurrences of the match are saved in an array. Each element of the array is represented by the <span style="font-style: italic;">ParamName_index</span>. In the following example, the parameter name is <span style="font-style: italic;">A</span>:</p>
+            <p class="Example">web_reg_save_param_xpath("ParamName= A", "QueryString=//component/prd/item", "SelectAll=Yes", LAST );</p>
+            <p>The first match is saved as <span style="font-style: italic;">A_1</span>, the second match is saved as <span style="font-style: italic;">A_2</span>, and so forth. You can retrieve the total number of matches by using the following term: <span style="font-style: italic;">ParamName</span>_count. For example, to retrieve the total number of matches saved to the parameter array, use: </p>
+            <p><code>TotalNumberOfMatches=atoi(lr_eval_string("{A_count}")); </code>
+            </p>
+            <p>&#160;</p>
+            <p><b>web_reg_save_param_xpath</b> is not recorded. You can add it manually to a script. </p>
+            <h2><a name="Restrictions"></a>Restrictions</h2>
+            <p><i>Scope</i> = <code>ALL does not apply to </code><b>web_reg_save_param_xpath</b>.</p>
+            <p>No searches are performed in data downloaded asynchronously.</p>
+            <p>If the <i>HeaderNames</i> filter argument is specified but the <i>Scope</i> is not <code>Headers</code>, the <i>HeaderNames</i> argument is ignored.</p>
+            <p>If the <i>RelFrameID=ALL</i> argument is specified, the <i>Ordinal</i> argument must be ommited or set to <code>ALL</code>.</p>
+            <p>For more information on the <i>DFES</i> argument, see <a href="etc/lrFr_AttsForSaveParamRegFuncts.htm" title="" alt="" class="MCXref xref">Attributes for Save Parameter Registration Functions</a>.</p>
+            <p>For more information on the <i>HeaderNames</i> and <i>Scope</i> arguments, see <a href="etc/lrFr_SearchFltrsForSaveParamRegFncts.htm" title="" alt="" class="MCXref xref">Search Filters for Save Parameter Registration Functions</a></p>
+            <p>For more information on the <i>RelFrameID </i>and<i> SelectAll </i>arguments, see <a href="etc/lrFr_SearchFltrsForSaveParamRegFncts.htm" title="" alt="" class="MCXref xref">Search Filters for Save Parameter Registration Functions</a> and <a href="etc/lrFuncRef_WVF_RelFrameID_Attribute.htm" title="" alt="" class="MCXref xref">RelFrameID Attribute</a>.</p>
+            <p><a class="MCHelpControl MCHelpControl-Concept conceptLink" data-mc-concepts="Parameter Arrays" href="javascript:void(0);" data-mc-topics="lr.paramarrIdx|../js_vuser/lrFr_JS_lr_paramarrIdx.htm#aanchor15||lr.paramarrLen|../js_vuser/lrFr_JS_lr_paramarrLen.htm#aanchor16||lr.paramarrRandom|../js_vuser/lrFr_JS_lr_paramarrRandom.htm#aanchor17||lr_paramarr_idx|../c_vuser/lrFr_lr_paramarr_idx.htm#aanchor5||lr_paramarr_len|../c_vuser/lrFr_lr_paramarr_len.htm#aanchor6||lr_paramarr_random|../c_vuser/lrFr_lr_paramarr_random.htm#aanchor7||Parameter Arrays|../c_vuser/etc/lrFr_c_ParameterArrays.htm#aanchor27||Parameter Arrays|../js_vuser/etc/lrFr_JS_ParameterArrays.htm#aanchor28"><span class="MCHelpControl-ConceptHotSpot_"><img class="MCHelpControl_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Concept Link Icon" />See Also</span></a>
+            </p>
+            <p>&#160;</p>
+            <!--        hr width="100%" size="4" align="center" padding-bottom="0" style="clear:both" /> -->
+            <div class="float">
+            </div>
+        </div>
+        <div class="footer">
+            <MadCap:conditionalText data-mc-conditions="_HP_Conditions.Footer">
+                <div class="roundcorners">
+                    <table style="border: none; margin-left: auto;       margin-right: auto;  width: 100%; margin-bottom: 0em">
+                        <col />
+                        <col />
+                        <col />
+                        <tr>
+                            <td style="border: none; border-collapse: collapse;">
+                                <p>
+                                    <img src="../Resources/MasterPages/Images/_TopNav_ic-hp-logo.png" />
+                                </p>
+                            </td>
+                            <td style="border: none; border-collapse: collapse;">
+                                <p><a href="../Resources/MasterPages/_HP_Legal_Notices.htm#1">© <span class="_HPc_Basic_Variables_HP_Copyright_Date_Range">2004 - 2016</span>&#160;<span class="_HPb_Branding_Variables_HP_Company_Legal_Name">Hewlett Packard Enterprise Development LP</span></a>
+                                    <br /> Last updated <span class="_HPc_Basic_Variables_HP_LastUpdatedDate">November 23, 2016</span></p>
+                            </td>
+                            <td style="border: none; border-collapse: collapse;">
+                                <!-- Contact -->
+                                <!-- Localizable -->
+                                <div id="hp-feedbackDiv" class="hp-feedbackDiv">
+                                    <div class="hp-feedbackDivContent">
+                                        <!-- Localizable -->
+                                        <p class="hp-feedbackDivBody">Send Help Center Feedback to: <a name="hp-feedbackOpen" id="hp-feedbackOpen" onclick="javascript:sendFeedback();">docteam@hpe.com</a></p>
+                                        <!-- Localizable -->
+                                        <div style="display:none;" id="hp-feedbackBody">Add your Help Center feedback:</div>
+                                        <!-- Localizable -->
+                                    </div>
+                                </div>
+                                <div id="hp-feedbackDimmedDiv">
+                                </div>
+                                <div style="display:none;" id="hp-feedback-variables" productName="HPE Function Reference" productVersion="12.53" commentsEmailAddress="docteam@hpe.com" productAcronym="VuGen" topicTitle="web_reg_save_param_xpath" skinLine1="HPE VuGen Function Reference" skinLine2="">
+                                    <script src="../Resources/_TopNav/_TopNav_Feedback.js">
+                                    </script>
+                                </div>
+                                <div style="display:none;" id="hp-feedback-variables" productName="HPE Function Reference" productVersion="12.53" commentsEmailAddress="docteam@hpe.com" productAcronym="VuGen" topicTitle="web_reg_save_param_xpath" skinLine1="HPE VuGen Function Reference" skinLine2="">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </MadCap:conditionalText>
+            <p style="visibility:hidden"> </p>
+            <p><a href="../Resources/MasterPages/_HP_HTML5_bannerTitle.htm" style="visibility: hidden;"></a><a href="../Resources/MasterPages/_HP_aboutSearch.htm" style="visibility: hidden;"></a>
+            </p>
+        </div>
+    </body>
+</html>

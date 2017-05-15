@@ -1,0 +1,2138 @@
+33b
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+  
+   <meta name="Robots" content="index,follow" />  
+  
+  
+  <!-- solutionmaniacs -->
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+  <link id="primaryStylesheet" rel="stylesheet" type="text/css" href="/display/common.css?styleId=1195171&amp;RK=1351212265040&amp;CE=75"/>
+  
+  <link id="slideShowStylesheet" rel="stylesheet" type="text/css" href="/universal/styles/squarespace-gallery-slideshow.css?CE=75"/>
+  
+  
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="http://www.solutionmaniacs.com/blog/atom.xml" />
+  
+ 
+400
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.solutionmaniacs.com/blog/rss.xml" />
+  
+    <link rel="alternate" type="application/rdf+xml" title="RDF" href="http://www.solutionmaniacs.com/blog/rdf.xml" />
+  
+  
+  <!-- Google Web Fonts -->
+  <script type="text/javascript">
+    	WebFontConfig = {};
+  
+   
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+
+  <script type="text/javascript" src="/universal/yui/yahoo-dom-event/yahoo-dom-event.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/connection/connection_core-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/json/json-min.js?CE=75"></script>
+
+400
+<script type="text/javascript" src="/universal/yui/animation/animation-min.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/selector/selector.js?CE=75"></script>
+<script type="text/javascript" src="/universal/yui/element/element.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/global.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/lightbox.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/api.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/base64.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/census.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/yui2-yui3-bridge.js?CE=75"></script>
+<script type="text/javascript" src="/universal/scripts/squarespace-gallery-slideshow.js?CE=75"></script>
+
+
+  <script type="text/javascript">
+  // <![CDATA[
+
+    Squarespace.Constants.SS_AUTHKEY = encodeURIComponent("");
+    Squarespace.Constants.WEBSIT
+400
+E_TITLE =  "Solution Maniacs, LLC"; 
+    
+     Squarespace.Constants.CURRENT_MODULE_ID = "6945474"; 
+    
+    
+    
+    Squarespace.Constants.ADMINISTRATION_UI =  false; 
+    
+    
+     Squarespace.Constants.OBJECT_PERMALINK = "http://www.solutionmaniacs.com/blog/2012/11/25/c-removereplace-characters-in-a-string.html"; 
+    Squarespace.Constants.CORE_APPLICATION_DOMAIN = "squarespace.com";
+    Squarespace.Constants.CORE_V6_APPLICATION_DOMAIN = "squarespace.com";
+    Squarespace.Constants.V5_FRONTSITE = "http://five.squarespace.com";
+    Squarespace.Constants.WEBSITE_ID = "598538";
+
+    
+
+    
+
+    
+
+  // ]]>
+  </script>
+
+      <title>C - Remove/Replace Characters in a&nbsp;String - Blog - Performance/Load Testing, Functional Testing, LoadRunner, QTP, VSTS, Automation and more!</title>
+    <meta property="og:title" content="C - Remove/Replace Characters in a&nbsp;String - Blog - Performance/Load Testing, Functional Testing, LoadRunner, QTP, VSTS, Automation and more!" /> 
+  
+
+      <meta property="og:descripti
+400
+on" content=" When I needed to remove/replace characters in a string, I posted a question here on stackoverflow ..." />
+  
+
+  
+      <meta property="og:image" content="http://www.solutionmaniacs.com/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" />
+  
+      <meta property="og:image" content="http://www.solutionmaniacs.com/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" />
+  
+      <meta property="og:image" content="http://www.solutionmaniacs.com/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" />
+  
+      <meta property="og:image" content="http://www.solutionmaniacs.com/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" />
+  
+
+  <!-- End Heading -->
+
+  <!--SyntaxHighlighter code-->
+<script type="text/javascript" src="/storage/sh/scripts/shCore.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushJScript.js"></script>
+<script type="text/
+400
+javascript" src="/storage/sh/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushPython.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushPerl.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushSql.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/storage/sh/scripts/shBrushCpp.js"></script>
+<link href="/storage/sh/styles/shCore.css" rel="stylesheet" type="text/css"></link>
+<link href="/storage/sh/styles/shThemeDefault.css" rel="Stylesheet" type="text/css"></link>
+
+<script type="text/javascript">
+// <![CDATA[
+
+E.onContentReady("siteQuote", function () {
+
+ var q = [{
+ "source": "Edsger Dijkstra",
+ "quote": "If debugging is the process of removing software
+400
+ bugs, then programming must be the process of putting them in."
+ },
+ {
+ "source": "Anonymous",
+ "quote": "My software never has bugs. It just develops random features."
+ },
+ {
+ "source": "Gerald Weinberg",
+ "quote": "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization."
+ },
+ {
+ "source": "Fred Brooks",
+ "quote": "Nine people can’t make a baby in a month."
+ },
+ {
+ "source": "Brian Kernighan",
+ "quote": "Debugging is twice as hard as writing the code in the first place.  Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
+ },
+ {
+ "source": "Intel Dept & Chuck Missler",
+ "quote": "Torture the data long enough and it will confess to anything."
+ },
+ {
+ "source": "Seymour Cray",
+ "quote": "The trouble with programmers is that you can never tell what a programmer is doing until it’s too late."
+ },
+ {
+ "source": "Benjamin Franklin",
+ "quote": "T
+400
+ell me and I forget.  Teach me and I remember.  Involve me and I learn."
+ },
+ {
+ "source": "Tom Cargill",
+ "quote": "The first 90% of the code accounts for the first 90% of the development time.  The remaining 10% of the code accounts for the other 90% of the development time."
+ },
+ {
+ "source": "Milt Bryce",
+ "quote": "There is only one problem with common sense; it’s not very common."
+ },
+ {
+ "source": "Edward V. Berard",
+ "quote": "Walking on water and developing software from a specification are easy if both are frozen."
+ },
+ {
+ "source": "Anonymous",
+ "quote": "Better train people and risk they leave – than do nothing and risk they stay."
+ },
+ {
+ "source": "Jim McCarthy",
+ "quote": "You can’t have great software without a great team, and most software teams behave like dysfunctional families."
+ },
+ {
+ "source": "Rod Michael",
+ "quote": "If you automate a mess, you get an automated mess."
+ },
+ {
+ "source": "Stephen Hawking",
+ "quote": "The greatest enemy of knowledge is n
+c5
+ot ignorance, it is the illusion of knowledge."
+ },
+ {
+ "source": "Jeff Atwood",
+ "quote": "We have to stop optimizing for programmers and start optimizing for users."
+ },
+ {
+ "source": "Den
+25b
+nie van Tassel",
+ "quote": "I’ve finally learned what ‘upward compatible’ means.  It means we get to keep all our old mistakes."
+ },
+ {
+ "source": "Ralph Johnson",
+ "quote": "Before software can be reusable it first has to be usable."
+ },
+ {
+ "source": "Rich Cook",
+ "quote": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots.  So far, the Universe is winning."
+ }];
+
+ var a = Math.floor(Math.random() * q.length);
+
+ this.appendChild(document.createTextNode(q
+9e0
+[a].quote));
+ this.appendChild(document.createElement("br"));
+ this.appendChild(document.createTextNode(" ~" + q[a].source));
+
+});
+
+// ]]>
+</script>
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type="text/javascript">function togglecomments (postid) {var whichpost = document.getElementById(postid); if (whichpost.className=="commentshown") { whichpost.className="commenthidden"; } else { whichpost.className="commentshown"; }
+} </script>
+
+  <script type="text/javascript" src="/universal/scripts/cookie-min.js"></script>
+  <script type="text/javascript" src="/universal/scripts/eu-cookie-policy.js"></script>
+
+</head>
+
+<body  id="modulePage6945474"   class="objectId31360570"  >
+
+  <script type="text/javascript">
+  YAHOO.util.Event.onDOMReady(function() {
+    if (document.location.href.indexOf("SSLogoutOk=true") != -1) {
+      new Squarespace.FixedPositionTip("Logout Successful", "You have been successfully logged out.", { xMargin: 15, yMargin: 15, icon: "/universal/images/helptip-info.png", orientation: "upper-right", viewportFixed: true, autoHide: 1800 }).show();
+    }
+  });
+</script>
+
+    
+
+  <script type="text/javascript">
+    YAHOO.util.Event.onDOMReady(function() { new Squarespace.Census.hit(); } );
+  </script>
+
+  <script type="text/javascript">
+    YAHOO.util.Event.addListener(document, "keyup", function (e) { if (!e) { e = event; } if (e.keyCode == 27) { document.location.href = "https://www.solutionmaniacs.com/login/?returnUrl=%2Fblog%2F2012%2F11%2F25%2Fc-removereplace-characters-in-a-string.html"; } });
+  </script>
+
+
+
+
+      
+    <div id="background">
+<img src="/storage/backgrounds/123rf-2681000_m.jpg" class="stretch" />
+</div>
+
+  
+
+  <div id="canvasWrapper"><div id="canvas">
+  
+      
+    <!--
+<form style="text-align: right" method="get" action="/display/Search">
+<a href="/login/?returnUrl=%2F">Login</a>
+-->
+<!--
+
+<span>|</span>
+<a href="/registration/">Register</a>
+
+-->
+
+<!--
+ 
+<input style="text-align: right" type="hidden" name="moduleId" value="6952761"/>
+<span style="text-align: right; height: 10px" class="queryFieldWrapper">
+<input style="text-align: right; width: 100px; height: 10px" type="text" onblur="if (this.value == '') {this.value = 'search?';}" onfocus="if (this.value == 'search?') {this.value = '';}" value="search?" class="text queryField" name="searchQuery" value=""/>
+</span>
+<span style="text-align: right" class="queryButtonWrapper">
+<input style="text
+13c5
+-align: right" type="hidden" type="submit" class="button queryButton" value="→"/>
+</span>
+</form>
+-->
+  
+
+  <div id="pageHeaderWrapper"><div id="pageHeader">
+
+      <div id="navigationTop"><div id="navigationTop-sectionContent3015020" class="horizontalNavigationBar"><ul class="content-navigation">
+    
+  <li class="module   " id="navigationTop-moduleContentWrapper19275249">
+
+    <div id="navigationTop-moduleContent19275249">
+
+              <a id="navigationTop-moduleLink19275249" class=" " href="/" ><span>Home</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationTop-moduleContentWrapper15116153">
+
+    <div id="navigationTop-moduleContent15116153">
+
+              <a id="navigationTop-moduleLink15116153" class=" folder-link" href="/products/" ><span>Products</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationTop-folderContent15116153">
+            
+  <li class="module   " id="navigationTop-moduleContentWrapper15116181">
+
+    <div id="navigationTop-moduleContent15116181">
+
+              <a id="navigationTop-moduleLink15116181" class=" " href="/squid/" ><span>SQUID</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationTop-moduleContentWrapper10767870">
+
+    <div id="navigationTop-moduleContent10767870">
+
+              <a id="navigationTop-moduleLink10767870" class=" folder-link" href="/services/" ><span>Services</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationTop-folderContent10767870">
+            
+  <li class="module   " id="navigationTop-moduleContentWrapper14160679">
+
+    <div id="navigationTop-moduleContent14160679">
+
+              <a id="navigationTop-moduleLink14160679" class=" " href="/tool-selection/" ><span>Tool Selection</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper6945487">
+
+    <div id="navigationTop-moduleContent6945487">
+
+              <a id="navigationTop-moduleLink6945487" class=" " href="/functional-automation/" ><span>Functional Automation</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper6945480">
+
+    <div id="navigationTop-moduleContent6945480">
+
+              <a id="navigationTop-moduleLink6945480" class=" " href="/performance-testing/" ><span>Performance Testing</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationTop-moduleContentWrapper6990421">
+
+    <div id="navigationTop-moduleContent6990421">
+
+              <a id="navigationTop-moduleLink6990421" class=" folder-link" href="javascript:toggleFolder(6990421);" ><span>Support</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationTop-folderContent6990421">
+            
+  <li class="module   " id="navigationTop-moduleContentWrapper10719271">
+
+    <div id="navigationTop-moduleContent10719271">
+
+              <a id="navigationTop-moduleLink10719271" class=" " href="/test-types-and-tools/" ><span>Test Types and Tools</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module active-module  " id="navigationTop-moduleContentWrapper6945474">
+
+    <div id="navigationTop-moduleContent6945474">
+
+              <a id="navigationTop-moduleLink6945474" class=" " href="/blog/" ><span>Blog</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper14430494">
+
+    <div id="navigationTop-moduleContent14430494">
+
+              <a id="navigationTop-moduleLink14430494" class=" " href="/glossary/" ><span>Glossary</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper6944434">
+
+    <div id="navigationTop-moduleContent6944434">
+
+              <a id="navigationTop-moduleLink6944434" class=" " href="/links/" ><span>Links</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationTop-moduleContentWrapper10201107">
+
+    <div id="navigationTop-moduleContent10201107">
+
+              <a id="navigationTop-moduleLink10201107" class=" folder-link" href="javascript:toggleFolder(10201107);" ><span>About Us</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationTop-folderContent10201107">
+            
+  <li class="module   " id="navigationTop-moduleContentWrapper10179576">
+
+    <div id="navigationTop-moduleContent10179576">
+
+              <a id="navigationTop-moduleLink10179576" class=" " href="/about-us-2/" ><span>About Us</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper10201364">
+
+    <div id="navigationTop-moduleContent10201364
+2000
+">
+
+              <a id="navigationTop-moduleLink10201364" class=" " href="/ongoing-training/" ><span>Ongoing Training</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper10201121">
+
+    <div id="navigationTop-moduleContent10201121">
+
+              <a id="navigationTop-moduleLink10201121" class=" " href="/the-maniac-advantage/" ><span>The Maniac Advantage</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper7029875">
+
+    <div id="navigationTop-moduleContent7029875">
+
+              <a id="navigationTop-moduleLink7029875" class=" " href="/tools-of-the-maniac/" ><span>Tools of the Maniac</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper6952129">
+
+    <div id="navigationTop-moduleContent6952129">
+
+              <a id="navigationTop-moduleLink6952129" class=" " href="/clients2/" ><span>Clients</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper6991528">
+
+    <div id="navigationTop-moduleContent6991528">
+
+              <a id="navigationTop-moduleLink6991528" class=" " href="/contact-us/" ><span>Contact Us</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationTop-moduleContentWrapper15160865">
+
+    <div id="navigationTop-moduleContent15160865">
+
+              <a id="navigationTop-moduleLink15160865" class=" " href="https://www.solutionmaniacs.com/login/?returnUrl=%2Fblog%2F2012%2F11%2F25%2Fc-removereplace-characters-in-a-string.html" ><span>Login</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  </ul><br class="clearer"/></div></div>
+
+    
+        
+      
+  
+      <div id="bannerAreaWrapper"><div id="bannerArea">
+
+        
+        <div id="bannerWrapper">
+          <a href="http://www.solutionmaniacs.com/"><img id="banner" src="/storage/banners/banner-38k.jpg" alt="Solution Maniacs, LLC" title="Solution Maniacs, LLC"/></a>
+        </div>  
+
+      
+      
+      </div></div>
+    
+    
+    
+
+      <div id="navigationBottom"><div id="navigationBottom-sectionContent3015020" class="horizontalNavigationBar"><ul class="content-navigation">
+    
+  <li class="module   " id="navigationBottom-moduleContentWrapper19275249">
+
+    <div id="navigationBottom-moduleContent19275249">
+
+              <a id="navigationBottom-moduleLink19275249" class=" " href="/" ><span>Home</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationBottom-moduleContentWrapper15116153">
+
+    <div id="navigationBottom-moduleContent15116153">
+
+              <a id="navigationBottom-moduleLink15116153" class=" folder-link" href="/products/" ><span>Products</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationBottom-folderContent15116153">
+            
+  <li class="module   " id="navigationBottom-moduleContentWrapper15116181">
+
+    <div id="navigationBottom-moduleContent15116181">
+
+              <a id="navigationBottom-moduleLink15116181" class=" " href="/squid/" ><span>SQUID</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationBottom-moduleContentWrapper10767870">
+
+    <div id="navigationBottom-moduleContent10767870">
+
+              <a id="navigationBottom-moduleLink10767870" class=" folder-link" href="/services/" ><span>Services</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationBottom-folderContent10767870">
+            
+  <li class="module   " id="navigationBottom-moduleContentWrapper14160679">
+
+    <div id="navigationBottom-moduleContent14160679">
+
+              <a id="navigationBottom-moduleLink14160679" class=" " href="/tool-selection/" ><span>Tool Selection</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper6945487">
+
+    <div id="navigationBottom-moduleContent6945487">
+
+              <a id="navigationBottom-moduleLink6945487" class=" " href="/functional-automation/" ><span>Functional Automation</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper6945480">
+
+    <div id="navigationBottom-moduleContent6945480">
+
+              <a id="navigationBottom-moduleLink6945480" class=" " href="/performance-testing/" ><span>Performance Testing</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationBottom-moduleContentWrapper6990421">
+
+    <div id="navigationBottom-moduleContent6990421">
+
+              <a id="navigationBottom-moduleLink6990421" class=" folder-link" href="javascript:toggleFolder(6990421);" ><span>Support</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationBottom-folderContent6990421">
+            
+  <li class="module   " id="navigationBottom-moduleContentWrapper10719271">
+
+    <div id="navigationBottom-moduleContent10719271">
+
+              <a id="navigationBottom-moduleLink10719271" class=" " href="/test-types-and-tools/" ><span>Test Types and Tools</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module active-module  " id="navigationBottom-moduleContentWrapper6945474">
+
+    <div id="navigationBottom-moduleContent6945474">
+
+              <a id="navigationBottom-moduleLink6945474" class=" " href="/blog/" ><span>Blog</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper14430494">
+
+    <div id="navigationBottom-moduleContent14430494">
+
+              <a id="navigationBottom-moduleLink14430494" class=" " href="/glossary/" ><span>Glossary</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper6944434">
+
+    <div id="navigationBottom-moduleContent6944434">
+
+              <a id="navigationBottom-moduleLink6944434" class=" " href="/links/" ><span>Links</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="navigationBottom-moduleContentWrapper10201107">
+
+    <div id="navigationBottom-moduleContent10201107">
+
+              <a id="navigationBottom-moduleLink10201107" class=" folder-link" href="javascript:toggleFolder(10201107);" ><span>About Us</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="navigationBottom-folderContent10201107">
+            
+  <li class="module   " id="navigationBottom-moduleContentWrapper10179576">
+
+    <div id="navigationBottom-moduleContent10179576">
+
+              <a id="navigationBottom-moduleLink10179576" class=" " href="/about-us-2/" ><span>About Us</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper10201364">
+
+    <div id="navigationBottom-moduleContent10201364">
+
+              <a id="navigationBottom-moduleLink10201364" class=" " href="/ongoing-training/" ><span>Ongoing Training</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper10201121">
+
+    <div id="navigationBottom-moduleContent10201121">
+
+              <a id="navigationBottom-moduleLink10201121" class=" " href="/the-maniac-advantage/" ><span>The Maniac Advantage</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper7029875">
+
+    <div id="navigationBottom-moduleContent7029875">
+
+              <a id="navigationBottom-moduleLink7029875" class=" " href="/tools-of-the-maniac/" ><span>Tools of the Maniac</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper6952129">
+
+    <div id="navigationBottom-moduleContent6952129">
+
+              <a id="navigationBottom-moduleLink6952129" class=" " href="/clients2/" >
+c2b
+<span>Clients</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper6991528">
+
+    <div id="navigationBottom-moduleContent6991528">
+
+              <a id="navigationBottom-moduleLink6991528" class=" " href="/contact-us/" ><span>Contact Us</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="navigationBottom-moduleContentWrapper15160865">
+
+    <div id="navigationBottom-moduleContent15160865">
+
+              <a id="navigationBottom-moduleLink15160865" class=" " href="https://www.solutionmaniacs.com/login/?returnUrl=%2Fblog%2F2012%2F11%2F25%2Fc-removereplace-characters-in-a-string.html" ><span>Login</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  </ul><br class="clearer"/></div></div>
+
+
+  </div></div>
+  
+  
+
+  
+
+  
+  <div id="pageBodyWrapper"><div id="pageBody">
+  
+  <div id="sidebar1Wrapper" class="verticalNavigationBarWrapper"><div class="iw-vnb1"><div class="iw-vnb2"><div class="iw-vnb3"><div class="iw-vnb4"><div id="sidebar1" class="verticalNavigationBar">
+
+  
+
+    <div id="sectionContent3015020" class="sectionWrapper promotedContainer "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Top</div> 
+
+      
+        
+          <ul class="content-navigation">
+  <li class="module   " id="moduleContentWrapper19275249">
+
+    <div id="moduleContent19275249">
+
+              <a id="moduleLink19275249" class=" " href="/" ><span>Home</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="moduleContentWrapper15116153">
+
+    <div id="moduleContent15116153">
+
+              <a id="moduleLink15116153" class=" folder-link" href="/products/" ><span>Products</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="folderContent15116153">
+            
+  <li class="module   " id="moduleContentWrapper15116181">
+
+    <div id="moduleContent15116181">
+
+              <a id="moduleLink15116181" class=" " href="/squid/" ><span>SQUID</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="moduleContentWrapper10767870">
+
+    <div id="moduleContent10767870">
+
+              <a id="moduleLink10767870" class=" folder-link" href="/services/" ><span>Services</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="folderContent10767870">
+            
+  <li class="module   " id="moduleContentWrapper14160679">
+
+    <div id="moduleContent14160679">
+
+              <a id="moduleLink14160679" class=" " href="/tool-selection/" ><span>Tool Selection</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper6945487">
+
+    <div id="moduleContent6945487">
+
+              <a id="moduleLink6945487" class=" " href="/functional-automation/" ><span>Functional Automation</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="modu
+30
+le   " id="moduleContentWrapper6945480">
+
+    <d
+ed0
+iv id="moduleContent6945480">
+
+              <a id="moduleLink6945480" class=" " href="/performance-testing/" ><span>Performance Testing</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="moduleContentWrapper6990421">
+
+    <div id="moduleContent6990421">
+
+              <a id="moduleLink6990421" class=" folder-link" href="javascript:toggleFolder(6990421);" ><span>Support</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="folderContent6990421">
+            
+  <li class="module   " id="moduleContentWrapper10719271">
+
+    <div id="moduleContent10719271">
+
+              <a id="moduleLink10719271" class=" " href="/test-types-and-tools/" ><span>Test Types and Tools</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module active-module  " id="moduleContentWrapper6945474">
+
+    <div id="moduleContent6945474">
+
+              <a id="moduleLink6945474" class=" " href="/blog/" ><span>Blog</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper14430494">
+
+    <div id="moduleContent14430494">
+
+              <a id="moduleLink14430494" class=" " href="/glossary/" ><span>Glossary</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper6944434">
+
+    <div id="moduleContent6944434">
+
+              <a id="moduleLink6944434" class=" " href="/links/" ><span>Links</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   folder-closed" id="moduleContentWrapper10201107">
+
+    <div id="moduleContent10201107">
+
+              <a id="moduleLink10201107" class=" folder-link" href="javascript:toggleFolder(10201107);" ><span>About Us</span></a>
+      
+
+            
+        <div class="folder-wrapper">
+          <ul class="folder" id="folderContent10201107">
+            
+  <li class="module   " id="moduleContentWrapper10179576">
+
+    <div id="moduleContent10179576">
+
+              <a id="moduleLink10179576" class=" " href="/about-us-2/" ><span>About Us</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper10201364">
+
+    <div id="moduleContent10201364">
+
+              <a id="moduleLink10201364" class=" " href="/ongoing-training/" ><span>Ongoing Training</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper10201121">
+
+    <div id="moduleContent10201121">
+
+              <a id="moduleLink10201121" class=" " href="/the-maniac-advantage/" ><span>The Maniac Advantage</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper7029875">
+
+    <div id="moduleContent7029875">
+
+              <a id="moduleLink7029875" class=" " href="/tools-of-the-maniac/" ><span>Tools of the Maniac</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper6952129">
+
+    <div id="moduleContent6952129">
+
+              <a id="moduleLink6952129" class=" " href="/clients2/" ><span>Clients</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+          </ul>
+        </div>
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper6991528">
+
+    <div id="moduleContent6991528">
+
+              <a id="moduleLink6991528" class=" " href="/contact-us/" ><span>Contact Us</span></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+
+  <li class="module   " id="moduleContentWrapper15160865">
+
+    <div id="moduleContent15160865">
+
+              <a id="moduleLink15160865" class=" " href="https://www.solutionmaniacs.com/login/?returnUrl=%2Fblog%2F2012%2F11%2F25%2Fc-removereplace-characters-in-a-string.html" ><span>Login</s
+4d5
+pan></a>
+      
+
+      
+
+    </div>
+
+  </li>
+
+</ul>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent3018164" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+      
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper6952761" class="widget-wrapper  widget-type-search"><div id="moduleContent6952761">
+
+
+<!-- <form method="get" action="/display/Search">
+	<div class="search-form-pt-wrapper">
+	  <div class="search-form-pt">
+	    <span class="queryFieldWrapper"><input type="text" class="text queryField" name="searchQuery" value=""/></span>
+	    <span class="queryButtonWrapper"><input type="submit" class="button queryButton" value="&raquo;"/></span>
+	    <input type="hidden" name="moduleId" value="6952761"/>
+	    <br class="clearer"/>
+	  </div>
+	</div>
+</form> -->
+
+<form method="get" action="/display/Search">
+	<input type="hidden" name="moduleId" value="6952761"/>
+	<table class="search-form-pt-wrapper search-form-table" border="0" cellpadding="0" cellspacing="0">
+		<tr class="search-form-pt search-form-row">
+			<td class="queryFieldCell search-form-cell">
+				<span clas
+ee3
+s="queryFieldWrapper">
+					<input type="text" class="text queryField" name="searchQuery" value=""/>
+				</span>
+			</td>
+			<td class="queryButtonCell search-form-cell">
+				<span class="queryButtonWrapper">
+					<input type="submit" class="button queryButton" value="&rarr;"/>
+				</span>
+			</td>
+		</tr>
+	</table> 
+</form></div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent7616408" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Contact Us Today</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper18006765" class="widget-wrapper  widget-type-page"><div id="moduleContent18006765">
+
+
+
+
+
+  <p style="text-align: left;"><strong><span style="font-size: 110%;">phone : 813.230.0776<br /><a href="mailto:info@solutionmaniacs.com">info@solutionmaniacs.com</a></span></strong></p>
+  
+  <a href="http://www.linkedin.com/in/solutionmaniacs">
+  <img src="/storage/icons/linkedin.png?__SQUARESPACE_CACHEVERSION=1337045856133" alt=""/></a>
+  
+  <a href="http://www.facebook.com/pages/Solution-Maniacs/366119250102229">
+  <img src="/storage/icons/facebook.png?__SQUARESPACE_CACHEVERSION=1337046392224" alt=""/></a>
+  
+  <a href="http://www.twitter.com/solutionmaniacs">
+  <img src="/storage/icons/twitter.png?__SQUARESPACE_CACHEVERSION=1337046889597" alt=""/></a>
+  
+  <a href="https://plus.google.com/104690270604686297754">
+  <img src="/storage/icons/google_plus.png?__SQUARESPACE_CACHEVERSION=1337051895470" alt=""/></a>
+  
+  <a href="http://www.youtube.com/user/solutionmaniacs">
+  <img src="/storage/icons/youtube.png?__SQUARESPACE_CACHEVERSION=1337052566783" alt=""/></a>
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent6917671" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">More Links</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper16407066" class="widget-wrapper  widget-type-page"><div id="moduleContent16407066">
+
+
+
+
+
+  <a href="/automation-benefits/">Automation Benefits</a>
+  <br />
+  <a href="/our-testing-philosophy/">Our Testing Philosophy</a>
+  <br />
+  <a href="/your-road-to-success/">Your Road to Success</a>
+  <br />
+  <a href="/vendor-neutral/">Vendor Neutral</a>
+  <br />
+  <a href="/optimum-performance/">Optimum Performance</a>
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent7616075" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Recent Blog Posts</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper18006001" class="widget-wrapper  widget-type-journalarchive"><div id="moduleContent18006001">
+
+
+
+
+
+
+
+  <ul class="archive-item-list-pt">
+     <li><a href="/blog/2015/6/18/solution-maniacs-achieves-small-vendor-status-on-samgov.html">Solution Maniacs Achieves Small Vendor Status On SAM.gov</a></li>  <li><a href="/blog/2013/3/29/microsoft-developer-day-march-20-2013.html">Microsoft Developer Day - March 20, 2013</a></li>  <li><a href="/blog/2013/3/28/orlando-net-code-camp-2013.html">Orlando .NET Code Camp 2013</a></li>  <li><a href="/blog/2013/3/27/sql-saturday-192.html">SQL Saturday #192</a></li>  <li><a href="/blog/2013/2/27/squid-change-log.html">SQUID - Change Log</a></li> 
+  </ul>
+
+
+
+</div></div><div id="moduleContentWrapper18006088" class="widget-wrapper  widget-type-page"><div id="moduleContent18006088">
+
+
+
+
+
+
+111d
+  <a href="/blog/">more ...</a>
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent5936061" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Quotes</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper14186596" class="widget-wrapper  widget-type-page"><div id="moduleContent14186596">
+
+
+
+
+
+  <p id="siteQuote"></p>
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent3016420" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Tags</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper14429188" class="widget-wrapper  widget-type-tagcloud"><div id="moduleContent14429188">
+
+
+
+  <style type="text/css">
+    #tagcloudwrapper-14429188 a { display:block; }
+  </style>
+  
+  <div id="tagcloudwrapper-14429188" class="tagcloud-widget-wrapper">
+    <div class="tagcloud">
+      <a href="/blog/tag/parameters"><span style="z-index:100; font-size: 1em; opacity:1;">Parameters&nbsp;(4)</span></a> <a href="/blog/tag/datetime"><span style="z-index:67; font-size: 1em; opacity:0.83;">date/time&nbsp;(3)</span></a> <a href="/blog/tag/loadrunner"><span style="z-index:67; font-size: 1em; opacity:0.83;">LoadRunner&nbsp;(3)</span></a> <a href="/blog/tag/starwest"><span style="z-index:67; font-size: 1em; opacity:0.83;">StarWest&nbsp;(3)</span></a> <a href="/blog/tag/consultant"><span style="z-index:34; font-size: 1em; opacity:0.67;">Consultant&nbsp;(2)</span></a> <a href="/blog/tag/dll"><span style="z-index:34; font-size: 1em; opacity:0.67;">DLL&nbsp;(2)</span></a> <a href="/blog/tag/powershell"><span style="z-index:34; font-size: 1em; opacity:0.67;">Powershell&nbsp;(2)</span></a> <a href="/blog/tag/travel"><span style="z-index:34; font-size: 1em; opacity:0.67;">travel&nbsp;(2)</span></a> <a href="/blog/tag/c"><span style="z-index:1; font-size: 1em; opacity:0.5;">C#&nbsp;(1)</span></a> <a href="/blog/tag/changelog"><span style="z-index:1; font-size: 1em; opacity:0.5;">ChangeLog&nbsp;(1)</span></a> <a href="/blog/tag/citrix"><span style="z-index:1; font-size: 1em; opacity:0.5;">Citrix&nbsp;(1)</span></a> <a href="/blog/tag/codecamp"><span style="z-index:1; font-size: 1em; opacity:0.5;">CodeCamp&nbsp;(1)</span></a> <a href="/blog/tag/debugging"><span style="z-index:1; font-size: 1em; opacity:0.5;">Debugging&nbsp;(1)</span></a> <a href="/blog/tag/epoch"><span style="z-index:1; font-size: 1em; opacity:0.5;">epoch&nbsp;(1)</span></a> <a href="/blog/tag/error"><span style="z-index:1; font-size: 1em; opacity:0.5;">Error&nbsp;(1)</span></a> <a href="/blog/tag/ica"><span style="z-index:1; font-size: 1em; opacity:0.5;">ICA&nbsp;(1)</span></a> <a href="/blog/tag/leadership-summit"><span style="z-index:1; font-size: 1em; opacity:0.5;">Leadership Summit&nbsp;(1)</span></a> <a href="/blog/tag/logging"><span style="z-index:1; font-size: 1em; opacity:0.5;">Logging&nbsp;(1)</span></a> <a href="/blog/tag/lr_save_datetime"><span style="z-index:1; font-size: 1em; opacity:0.5;">lr_save_datetime&nbsp;(1)</span></a> <a href="/blog/tag/microsoftdeveloperday"><span style="z-index:1; font-size: 1em; opacity:0.5;">MicrosoftDeveloperDay&nbsp;(1)</span></a> <a href="/blog/tag/mktime"><span style="z-index:1; font-size: 1em; opacity:0.5;">mktime&nbsp;(1)</span></a> <a href="/blog/tag/press-release"><span style="z-index:1; font-size: 1em; opacity:0.5;">press release&nbsp;(1)</span></a> <a href="/blog/tag/screen-capture"><span style="z-index:1; font-size: 1em; opacity:0.5;">screen capture&nbsp;(1)</span></a> <a href="/blog/tag/snipping-tool"><span style="z-index:1; font-size: 1em; opacity:0.5;">Snipping Tool&nbsp;(1)</span></a> <a href="/blog/tag/sqlsaturday"><span style="z-index:1; font-size: 1em; opacity:0.5;">SQLSaturday&nbsp;(1)</span></a> <a href="/blog/tag/squidretrievedata"><span style="z-index:1; font-size: 1em; opacity:0.5;">SquidRetrieveData&nbsp;(1)</span></a> <a href="/blog/tag/string"><span style="z-index:1; font-size: 1em; opacity:0.5;">string&nbsp;(1)</span></a> <a href="/blog/tag/strncmp"><span style="z-index:1; font-size: 1em; opacity:0.5;">strn
+2000
+cmp&nbsp;(1)</span></a> <a href="/blog/tag/strtok"><span style="z-index:1; font-size: 1em; opacity:0.5;">strtok&nbsp;(1)</span></a> <a href="/blog/tag/vbscript"><span style="z-index:1; font-size: 1em; opacity:0.5;">VBScript&nbsp;(1)</span></a> <a href="/blog/tag/versions"><span style="z-index:1; font-size: 1em; opacity:0.5;">Versions&nbsp;(1)</span></a> <a href="/blog/tag/vts"><span style="z-index:1; font-size: 1em; opacity:0.5;">VTS&nbsp;(1)</span></a> 
+    </div>
+  </div>
+
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+    <div id="sectionContent6047696" class="sectionWrapper  "><div class="iw-s1"><div class="iw-s2"><div class="iw-s3"><div class="iw-s4"><div class="section">
+
+       <div class="caption">Categories</div> 
+
+      
+        
+          <div class="content-passthrough"><div id="moduleContentWrapper6948002" class="widget-wrapper  widget-type-journalarchive"><div id="moduleContent6948002">
+
+
+
+
+  <ul class="archive-item-list-pt">
+     <li><a href="/blog/category/c">C</a> <span class="entry-count">(1)</span></li>  <li><a href="/blog/category/conference">Conference</a> <span class="entry-count">(6)</span></li>  <li><a href="/blog/category/insights">Insights</a> <span class="entry-count">(2)</span></li>  <li><a href="/blog/category/loadrunner">LoadRunner</a> <span class="entry-count">(6)</span></li>  <li><a href="/blog/category/marketing">Marketing</a> <span class="entry-count">(1)</span></li>  <li><a href="/blog/category/qtp">QTP</a> <span class="entry-count">(1)</span></li>  <li><a href="/blog/category/squid">SQUID</a> <span class="entry-count">(3)</span></li>  <li><a href="/blog/category/windows">Windows</a> <span class="entry-count">(1)</span></li> 
+  </ul>
+
+
+
+
+
+
+</div></div></div>
+
+        
+
+      
+  
+    </div></div></div></div></div></div>
+
+  
+
+  
+
+</div></div></div></div></div></div>
+  <div id="sidebar2Wrapper" class="verticalNavigationBarWrapper"><div class="iw-vnb1"><div class="iw-vnb2"><div class="iw-vnb3"><div class="iw-vnb4"><div id="sidebar2" class="verticalNavigationBar">
+
+  
+
+  
+
+</div></div></div></div></div></div>
+  
+  
+
+  <div id="contentWrapper"><div id="content">
+    
+          
+    
+
+
+  
+
+  
+  
+      
+  <div class="journal-entry-navigation">
+
+    
+       <a class="journal-entry-navigation-prev" href="/blog/2013/2/27/squid-change-log.html">&laquo; SQUID - Change Log</a> | 
+      <a class="journal-entry-navigation-main" href="/blog/">Main</a>
+       | <a class="journal-entry-navigation-next" href="/blog/2012/10/22/starwest-testing-quality-leadership-summit.html">StarWest - Testing & Quality Leadership Summit &raquo;</a> 
+
+    
+
+  </div>
+
+
+  
+  
+  <div class="single-journal-entry-wrapper">
+    
+
+
+<div class="journal-entry-wrapper post-text authored-by-solutionmaniacs category-c">
+<div id="item31360570" class="journal-entry">
+
+  <div class="journal-entry-float-day"><span class="name">Sunday</span></div><div class="journal-entry-float-date"><span class="month">Nov</span><span class="date">25</span><span class="year">2012</span></div>
+  
+  
+  
+  <div class="journal-entry-text">
+  
+      
+      <h2 class="title">
+    
+        
+    
+        <a class="journal-entry-navigation-current" href="/blog/2012/11/25/c-removereplace-characters-in-a-string.html">C - Remove/Replace Characters in a&nbsp;String</a>  
+     
+         
+    
+      </h2>
+      
+       <div class="journal-entry-tag journal-entry-tag-post-title"><span class="posted-on">   <img title="Date" alt="Date" class="inline-icon date-icon" rel="dark" src="/universal/images/transparent.png" />Sunday, November 25, 2012 at 8:54PM</span> </div> 
+
+    
+  
+      
+      <div class="body">
+  
+        
+        
+        
+          <p>When I needed to remove/replace characters in a string, I posted a question <a href="http://stackoverflow.com/questions/1499939/remove-characters-from-a-string-in-c">here</a> on <a href="http://www.stackoverflow.com">stackoverflow</a>.</p>
+
+<p>I have used the <b>strstr</b> function in a loop, but was looking for a simpler solution.  A C implementation equivalent to the C# <b>String.Replace</b> method might work.</p>
+
+<div id="column1" style="width: 668px;">
+<p class="subheading"><img style="vertical-align: top;" src="/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" alt="" /><strong>&nbsp;Problem</strong></p>
+<ul>
+<li>Given a string (example : captured by LoadRunner's web_reg_save_param).</li>
+<li>Replace all the <b>&amp;amp;</b> character sequences with the <b>&amp;</b> character.</li>
+</ul>
+</div>
+
+<div id="column1" style="width: 668px;">
+<p class="subheading"><img style="vertical-align: top;" src="/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" alt="" /><strong>&nbsp;Solution #1</strong></p>
+</div>
+
+<p><strong>Simple Solution</strong></p>
+
+<pre class="brush: cpp">
+char strSource[] = "/url/i.jsp?id=10002&amp;amp;c=10008&amp;amp;p=AC&amp;amp;v=2&amp;amp;s=3&amp;amp;m=1";
+char strTemp[1024];
+char *s = (char*)strSource;
+int i=0;
+
+while (*s)
+{
+    strTemp[i++] = *s;
+    if (strncmp(s,"&amp;amp;",5) == 0)
+    {
+        s += 5;
+    }
+    else
+        s++;
+}
+strTemp[i] = 0;
+
+// strTemp = /url/i.jsp?id=10002&c=10008&p=AC&v=2&s=3&m=1
+</pre>
+
+<br/>
+<p>This works for this specific problem, but what if we want to be more flexible?</p>
+
+<div id="column1" style="width: 668px;">
+<p class="subheading"><img style="vertical-align: top;" src="/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" alt="" /><strong>&nbsp;Solution #2</strong></p>
+<ul>
+<li>Create a reusable function.</li>
+<li>Pass the <b>source</b>, <b>from</b> and <b>to</b> strings as parameters to the function.</li>
+<li>Dynamically determine the length of the strings.</li>
+<li>Save the resulting string into a LoadRunner parameter.</li>
+</ul>
+</div>
+
+<p><strong>Flexible Solution</strong></p>
+
+<pre class="brush: cpp">
+void solution2 (char *strSource, char *strFrom, char *strTo, char *strParam)
+{
+	char strTemp[1024];
+	char *s = (char*)strSource;
+	int i=0;
+	int iLenFrom = strlen (strFrom);
+	int iLenTo   = strlen (strTo  );
+
+	while (*s)
+	{
+		if (strncmp (s, strFrom, iLenFrom) == 0)
+		{
+			strncpy (&(strTemp[i]), strTo, iLenTo);
+			i += iLenTo;
+			s += iLenFrom;
+		}
+		else
+		{
+			strTemp[i++] = *s;
+			s++;
+		}
+	}
+	strTemp[i] = 0;
+
+	lr_save_string (strTemp, strParam);
+}
+
+Action()
+{
+	char strSource[] = "/url/i.jsp?id=10002&amp;amp;c=10008&amp;amp;p=AC&amp;amp;v=2&amp;amp;s=3&amp;amp;m=1";
+
+	lr_save_string (strSource, "pNewValue0");
+
+	solution_2 (strSource, "&amp;amp;",   "&",     "pNewValue1");
+	solution_2 (strSource, "&amp;amp;",   "[AAA]", "pNewValue2");
+	solution_2 (strSource, "&aaamp;", "[BBB]", "pNewValue3");
+	solution_2 (strSource, "&amp;amp;",   "",      "pNewValue4");
+	solution_2 (strSource, "00",      "[X]",   "pNewValue5");
+
+	// Parameters created
+
+	// pNewValue0 = /url/i.jsp?id=10002&amp;amp;c=10008&amp;amp;p=AC&amp;amp;v=2&amp;amp;s=3&amp;amp;m=1
+	// pNewValue1 = /url/i.jsp?id=10002&c=10008&p=AC&v=2&s=3&m=1
+	// pNewValue2 = /url/i.jsp?id=10002[AAA]c=10008[AAA]p=AC[AAA]v=2[AAA]s=3[AAA]m=1
+	// pNewValue3 = /url/i.jsp?id=10002&amp;amp;c=10008&amp;amp;p=AC&amp;amp;v=2&amp;amp;s=3&amp;amp;m=1
+	// pNewValue4 = /url/i.jsp?id=10002c=10008p=ACv=2s=3m=1
+	// pNewValue5 = /url/i.jsp?id=1[X]02&amp;amp;c=1[X]08&amp;amp;p=AC&amp;amp;v=2&amp;amp;s=3&amp;amp;m=1
+
+	return 0;
+}
+</pre>
+
+<div id="column1" style="width: 668px;">
+<p class="subheading"><img style="vertical-align: top;" src="/storage/icons/findicons_essen_445008_16.png?__SQUARESPACE_CACHEVERSION=1333845536370" alt="" /><strong>&nbsp;Moving Forward</strong></p>
+<ul>
+<li>Dynamically allocate the strTemp variable.</li>
+<li>Error checking for empty strings and chars not found.</li>
+<li>Replace strncmp/strncpy with memcmp/memcpy.</li>
+</ul>
+</div>
+
+        
+  
+          
+  
+         
+  
+      </div>
+
+    
+
+  </div>
+
+      <div class="journal-entry-tag journal-entry-tag-post-body">
+      <div class="journal-entry-tag-post-body-line1"><span class="posted-by">  <a href="/blog/author/solutionmaniacs"> <
+2000
+img title="Author" alt="Author" class="inline-icon user-registered-icon" rel="dark" src="/universal/images/transparent.png" />Edward Leno</a></span> |  <span class="post-comments"><a href="/blog/2012/11/25/c-removereplace-characters-in-a-string.html#comments"> <img title="Comment" alt="Comment" class="inline-icon comment-icon" rel="dark" src="/universal/images/transparent.png" />Post a Comment</a></span> |  <span class="share-item"><a href="javascript:noop();" onclick="Squarespace.Interaction.shareLink(this,'%2Fblog%2F2012%2F11%2F25%2Fc-removereplace-characters-in-a-string.html','C%20-%20Remove%2FReplace%20Characters%20in%20a%20String');"> <img title="Share Article" alt="Share Article" class="inline-icon share-icon" rel="dark" src="/universal/images/transparent.png" />Share Article </a></span> |  <span class="tagged-with"> <span class="tag-element"><a rel="tag" href="/blog/tag/loadrunner"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="dark" src="/universal/images/transparent.png" />LoadRunner</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/string"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="dark" src="/universal/images/transparent.png" />string</a></span>, <span class="tag-element"><a rel="tag" href="/blog/tag/strncmp"> <img title="Tag" alt="Tag" class="inline-icon tag-icon" rel="dark" src="/universal/images/transparent.png" />strncmp</a></span></span>  <span class="posted-in">in <span class="tag-element"><a rel="tag" href="/blog/category/c"> <img title="Category" alt="Category" class="inline-icon category-icon" rel="dark" src="/universal/images/transparent.png" />C</a></span></span>  </div>
+      <div class="journal-entry-tag-post-body-line2"></div>
+      <div class="journal-entry-tag-post-body-line3"></div>
+    </div>
+  
+  
+  <div class="clearer"></div>
+
+</div>
+</div>
+
+
+
+
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="journal-comment-area-wrapper">
+    <div id="comments" class="journal-comment-area">
+
+      <h3 class="caption">Reader Comments </h3>
+
+      
+        
+          <div class="text">There are no comments for this journal entry.  To create a new comment, use the form below.</div>
+
+        
+
+      
+
+    </div>
+    </div>
+
+    
+      <div class="journal-add-comment-area-wrapper">
+  
+          
+            
+            
+  <script type="text/javascript">
+  // <![CDATA[
+
+    var isAddCommentsVisible = true;
+
+    function toggleReferenceMode() {
+      if (isAddCommentsVisible) {
+        hideObject(document.getElementById("add-comment-area"));
+        showObject(document.getElementById("add-reference-area"));
+      } else {
+        showObject(document.getElementById("add-comment-area"));
+        hideObject(document.getElementById("add-reference-area"));
+      }
+      isAddCommentsVisible = !isAddCommentsVisible;
+    }
+
+    E.addListener("postform", "keydown", Squarespace.SessionAuthorizationKey.acquireAuthKey, '');
+
+  // ]]>
+  </script>
+
+  <form method="post" style="margin: 0; padding: 0;" name="postform" id="postform" action="/process/CreateJournalEntryComment?moduleId=6945474&amp;entryId=31360570"> 
+
+    
+ 
+    <div class="notice-box" style="margin-top: 2em;" id="add-comment-area">
+
+      
+                              <h3 class="caption"><img title="Post" alt="Post" class="inline-icon" rel="dark" src="/universal/images/transparent.png" style="background:transparent url(/universal/images/core-resources/icons/dark/comment.png) top left no-repeat;"/>Post a New Comment</h3>
+          
+        
+
+        <div class="caption-text">
+
+          Enter your information below to add a new comment.
+
+          
+            <br/><br/>
+            <a href="javascript:toggleReferenceMode();">My response is on my own website &raquo;</a>
+
+          
+
+        </div>
+
+        
+
+        <script type="text/javascript" src="/universal/scripts/storable-fields.js?CE=75"></script>
+
+        
+          <div class="input-field">
+            
+            <div id="authorName_title" class="title">
+               Author: 
+
+              &nbsp;<a id="storedFieldControls" style="display: none; font-size: 9px;" href="javascript:forgetSavedFields();">(forget stored information)</a>
+            </div>
+            <input class="text" type="text" style="width: 200px;" name="authorName" id="authorName" value="" maxlength="50" tabindex="2"/>
+          </div>
+
+          <div class="input-field">
+            
+            <div id="authorEmail_title" class="title"> Author Email (optional): 
+</div>
+            <input class="text" type="text" style="width: 200px;" name="authorEmail" id="authorEmail" value="" maxlength="255" tabindex="3"/>
+          </div>
+
+          <div class="input-field">
+            
+            <div id="authorUrl_title" class="title"> Author URL (optional): 
+</div>
+            <input class="text" type="text" style="width: 200px;" name="authorUrl" id="authorUrl" value="" maxlength="255" tabindex="4"/>
+          </div>
+
+          <script type="text/javascript">
+
+            YAHOO.util.Event.addListener(window, "load", function() {
+
+              document.getElementById("storedFieldControls").style.display = (Squarespace.StorableFields.isDataSaved("authorName", "authorEmail", "authorUrl") ? "inline" : "none");
+              Squarespace.StorableFields.recall("authorName", "authorEmail", "authorUrl");
+
+            });
+
+            function forgetSavedFields() {
+
+              Squarespace.StorableFields.forget("authorName", "authorEmail", "authorUrl");
+              document.getElementById("storedFieldControls").style.display = "none";
+
+            }
+
+          </script>
+
+        
+
+        <script type="text/javascript">
+          function expandBody() { b = document.getElementById("body"); b.style.height = (b.offsetHeight + 40) + "px"; }
+          function shrinkBody() { b = document.getElementById("body"); b.style.height = (b.offsetHeight - 40) + "px"; }
+        </script>
+
+        
+        <div id="body_title" style="padding-bottom: 5px; float: left;"> Post: 
+</div>
+        <div style="padding-bottom: 5px; float: right;"><a title="Increase the size of the comment area." href="javascript:expandBody();">&#8595;</a> | <a title="Decrease the size of the comment area." href="javascript:shrinkBody();">&#8593;</a></div>
+        <div class="clearer">&nbsp;</div>
+        <div style="padding-bottom: 5px;"><textarea rows="15" cols="60" name="body" id="body" tabindex="5"></textarea></div>
+        <div style="padding-bottom: 5px;">Some HTML allowed: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;code&gt; &lt;em&gt; &lt;i&gt; &lt;strike&gt; &lt;strong&gt;</div>
+
+        
+
+        
+
+        <div class="footer">
+
+                      <div class="notice-box-alert">
+              <div class="icon"><img title="Alert" alt="Alert" class="inline-icon" rel="dark" src="/universal/images/transparent.png" style="background:transparent url(/universal/images/core-resources/icons/dark/alert.png) top left no-repeat;"/></div>
+              <div class="text">
+                <strong>Comment Moderation Enabled</strong><br/>
+                Your comment will not appear until it has been cleared by a website editor.
+              </div>
+            </div>
+          
+
+                    
+            <p style="padding-bottom: 10px;"><input class="checkbox" type="checkbox" name="followOptIn" id="followOptIn" value="true"  tabindex="6"/>
+              <span onclick="toggleNotify()" style="cursor: pointer; cursor: hand">Notify me of follow-up comments via email.</span>
+            </p>
+            <br/>
+
+          
+
+          <input type="hidden" id="authKey" name="authKey" value=""/>
+          <input style="width: 150px;" tabindex="6" class="button" type="button" name="createPostButton"  id="createPostButton"  value="Create Post"  onclick="submitContent(true);"/> &nbsp;&nbsp;
+          <input style="width: 150px;" tabindex="7" class="button" type="button" name="previewPostButton" id="previewPostButton" value="Preview Post" onclick="submitContent(false);"/>
+
+        </div>
+
+      
+
+    </div>
+
+  </form>
+
+  <script type="text/javasc
+1751
+ript">
+  // <![CDATA[
+
+    function toggleNotify() {
+      document.getElementById("followOptIn").click();
+    }
+              
+    function submitContent(isFinal) {
+      if (isFinal) {
+        document.getElementById("postform").action += "&finalize=true";
+        Squarespace.StorableFields.save("authorName", "authorEmail", "authorUrl");
+      }
+      Squarespace.Form.smartSubmit("postform");
+    }
+
+  // ]]>
+  </script>
+
+  
+    <form method="post" style="margin: 0; padding: 0;" name="postreferenceform" id="postreferenceform" action="/process/CreateReference?moduleId=6945474&amp;entryId=31360570">
+
+      <div class="notice-box" style="margin-top: 2em; display: none;" id="add-reference-area">
+
+                  <h3 class="caption"><img title="Post" alt="Post" class="inline-icon" rel="dark" src="/universal/images/transparent.png" style="background:transparent url(/universal/images/core-resources/icons/dark/reference.png) top left no-repeat;"/>Link an External Response</h3>
+        
+
+        <div class="caption-text">
+
+          Have a response on your own site?
+
+                      You can either use the [<a href="http://www.solutionmaniacs.com/blog/trackback/31360570">Trackback URL</a>] for this entry, or link to your response directly.
+          
+
+          <br/><br/>
+
+          <a href="javascript:toggleReferenceMode();">I want to leave a comment directly on this site &raquo;</a>
+
+        </div>
+
+        <div class="caption-text" id="directLink">
+
+          <div class="input-field">
+            
+            <div class="title"> Article Title: 
+</div>
+            <div class="control"><input class="text" type="text" name="title" id="title" value="" tabindex="2"/></div>
+          </div>
+
+          <div class="input-field">
+            
+            <div class="title"> Article URL: 
+</div>
+            <div class="control"><input class="text" type="text" name="url" id="url" value="" tabindex="3"/></div>
+          </div>
+
+          <div class="input-field">
+            
+            <div class="title"> Article Excerpt (optional): 
+</div>
+            <div class="control"><input class="text" type="text" name="excerpt" id="excerpt" value="" tabindex="4"/></div>
+          </div>
+
+          <div class="input-field">
+            
+            <div class="title"> Site Name: 
+</div>
+            <div class="control"><input class="text" type="text" name="blog_name" id="blog_name" value="" tabindex="5"/></div>
+          </div>
+
+          <div class="input-field">
+            
+            <div class="title"> Site URL (optional): 
+</div>
+            <div class="control"><input class="text" type="text" name="blog_url" id="blog_url" value="" tabindex="5"/></div>
+          </div>
+
+          <div class="input-field">
+            
+            <div class="title"> Author Name: 
+</div>
+            <div class="control"><input class="text" type="text" name="author_name" id="author_name" value="" tabindex="6"/></div>
+          </div>
+
+        </div>
+
+        <div class="footer">
+
+          
+            <div class="notice-box-alert">
+              <div class="icon"><img title="Alert" alt="Alert" class="inline-icon" rel="dark" src="/universal/images/transparent.png" style="background:transparent url(/universal/images/core-resources/icons/dark/alert.png) top left no-repeat;"/></div>
+              <div class="text"><strong>References will be subject to editor approval before appearing.</strong>  Your reference will not appear until it has been cleared by a website editor.</div>
+            </div>
+
+          
+
+          <input style="width: 150px;" tabindex="7" class="button" type="button" value="Create Reference" onclick="Squarespace.Form.smartSubmit('postreferenceform');"/>
+
+          
+            <!-- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"> <rdf:Description rdf:about="http://www.solutionmaniacs.com/blog/2012/11/25/c-removereplace-characters-in-a-string.html" dc:identifier="http://www.solutionmaniacs.com/blog/2012/11/25/c-removereplace-characters-in-a-string.html" dc:title="C - Remove/Replace Characters in a String" trackback:ping="http://www.solutionmaniacs.com/blog/trackback/31360570" /> </rdf:RDF> -->
+
+          
+
+        </div>
+
+      </div>
+
+    </form>
+
+    
+
+  
+
+
+  
+            
+  
+          
+  
+        
+  
+      </div>
+        
+    
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+  
+  
+
+</div></div> <!-- Content -->
+  
+    
+  
+    </div></div> <!-- Page Body -->
+
+    
+    
+    <div id="pageFooterWrapper"><div id="pageFooter">
+  
+              <table width="100%">
+<tr>
+<td>
+&copy; 2008-2017 Solution Maniacs, LLC
+</td>
+<td>
+<a title="Home" href="/home/">Home</a>&nbsp; | &nbsp;<a href="/services/">Services</a>&nbsp; | &nbsp;<a href="/about-us-2/">About Us</a>&nbsp; | &nbsp;<a href="/contact-us/">Contact Us</a>
+</td>
+<td align=right>
+<a onclick="this.target='new';" href="http://www.squarespace.com/?associateTag=solutionmaniacs"><img src="/universal/images/squarespace/sstiny-button.png" alt="Powered by Squarespace"/></a>
+</td>
+</tr>
+</table>
+
+<script type="text/javascript">
+    SyntaxHighlighter.all()
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31582236-1']);
+  _gaq.push(['_setDomainName', 'solutionmaniacs.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+      
+  
+      
+  
+    </div></div>
+  
+  </div></div> <!-- Canvas -->
+  
+      
+    
+
+
+
+
+   
+
+
+  <div class="clearer" id="bodyClearer"></div>
+
+  
+
+
+
+</body>
+</html>
+0
+

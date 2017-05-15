@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks AutoMap 2003 Platinum Edition for FrameMaker 8.5.5844.3" />
+    <meta name="TEMPLATEBASE" content="Func_Ref_Template_WW2003" />
+    <meta name="LASTUPDATED" content="01/17/11 04:19:14" />
+    <title>Example: web_reg_save_param_xpath</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+
+<!--Sivia 21/12/03 force to use custom document.css
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+-->
+
+  </head>
+
+  <body onClick="javascript:VarHTMLHelp.fNotifyClicked();">
+
+  <!-- 18/03/2004. Sivia. Put in breadcrumbs support -->
+     <table id="SummaryNotReq1" width="100%" border="0" cellspacing="0" cellpadding="0">
+       	<tr>
+       		<td width=20>&nbsp;</td>
+       		<td><font face="arial" size="1">HP LoadRunner Online Function Reference > <a href="web_FuncRef_web_cat_01.html"> Web Vuser Functions (WEB)</a> > Example: web_reg_save_param_xpath</font></td>
+       	</tr>
+ </table>
+
+
+<script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/seealso.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="data/popups.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/popup.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/page.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2">
+     <!--
+      function  WWNoOp() {}
+      function  WWNoValue() { return ""; }
+
+
+      var  VarHTMLHelp;
+      var  VarSeeAlso;
+      var  VarDropDown;
+
+
+      if (typeof(HTMLHelp_Object) != "undefined")
+      {
+        VarHTMLHelp = new HTMLHelp_Object();
+        VarSeeAlso  = new WWSeeAlso_Object();
+        VarDropDown = new WWDropDown_Object();
+      }
+      else
+      {
+        VarHTMLHelp = new Object();
+        VarHTMLHelp.fNotifyClicked = WWNoOp;
+        VarHTMLHelp.fPopupDivTag   = WWNoValue;
+
+        VarSeeAlso = new Object();
+
+        VarDropDown = new Object();
+        VarDropDown.fAnchorOpen  = WWNoOp;
+        VarDropDown.fAnchorClose = WWNoOp;
+        VarDropDown.fDIVOpen  = WWNoOp;
+        VarDropDown.fDIVClose = WWNoOp;
+      }
+     // -->
+    </script>
+
+<!--Sivia 17/12/03 removed top navigation arrows and logo
+    <table id="SummaryNotReq2" width="110" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+<a accesskey="4" href="web_reg_save_param_xpath.html"><img id="LongDescNotReq1" src="images/prev.gif" border="0" alt="Previous" /></a><a accesskey="5" href="web_FuncRef_web_082.html"><img id="LongDescNotReq2" src="images/next.gif" border="0" alt="Next" /></a>
+        </td>
+      </tr>
+    </table>
+
+
+    <p>
+      <img id="LongDescNotReq3" src="images/logo.gif" width="174" height="46" alt="Put your logo here!" />
+    </p>
+    <hr align="left" />
+-->
+
+    <blockquote class="indent">
+<a name="wp178014"> </a><h2 class="pn2Heading">
+Example: web_reg_save_param_xpath
+</h2>
+
+<a name="wp178011"> </a><p class="pRegtext">
+The following example shows the use of <b style="font-weight: bold">web_reg_save_param_xpath</b>.
+</p>
+<a name="wp178022"> </a><p class="pExample_after">
+&nbsp;&nbsp;&nbsp;&nbsp;<b style="font-weight: bold">web_reg_save_param_xpath</b>( 
+</p>
+<a name="wp179968"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;ParamName=outParam&quot;,  
+</p>
+<a name="wp178023"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;QueryString=//tag_c&quot;, 
+</p>
+<a name="wp178025"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEARCH_FILTERS,
+</p>
+<a name="wp178026"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Scope=Body&quot;, 
+</p>
+<a name="wp178027"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAST );
+</p>
+<a name="wp178029"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;web_url( &quot;xpath_test.xml&quot;,
+</p>
+<a name="wp178030"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;url=http://localhost/webgui/xpath_test.xml&quot;,
+</p>
+<a name="wp178031"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAST );
+</p>
+<a name="wp178033"> </a><p class="pExample">
+&nbsp;&nbsp;&nbsp;&nbsp;lr_output_message( lr_eval_string( &quot;outParam = {outParam}&quot; ) );
+</p>
+    </blockquote>
+
+    <hr />
+
+
+  <table id="SummaryNotReq3" align="right" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+           <td align="right">
+           <font size="1" face="Verdana, Arial, Helvetica, sans-serif">&#169;
+           <a href="copyright.htm">Copyright</a> 2011 Hewlett-Packard Development Company, L.P.<br>
+           </font>
+           </td>
+         </tr>
+
+
+
+    </table>
+
+<!--Sivia 17/12/03 removed navigation butttons on bottom of page
+    <table id="SummaryNotReq4" width="110" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+<a accesskey="4" href="web_reg_save_param_xpath.html"><img id="LongDescNotReq4" src="images/prev.gif" border="0" alt="Previous" /></a><a accesskey="5" href="web_FuncRef_web_082.html"><img id="LongDescNotReq5" src="images/next.gif" border="0" alt="Next" /></a>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+     <!--
+      document.write(VarHTMLHelp.fPopupDivTag());
+     // -->
+    </script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+POST /collect HTTP/1.1
+Host: www.google-analytics.com
+Connection: keep-alive
+Content-Length: 155
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+authority: www.google-analytics.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Content-type: application/x-www-form-urlencoded
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-ES,es;q=0.8
+

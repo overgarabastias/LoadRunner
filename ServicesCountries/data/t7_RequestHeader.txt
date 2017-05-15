@@ -1,0 +1,11 @@
+POST /events HTTP/1.1
+Host: analytics.getpostman.com
+Connection: keep-alive
+Content-Length: 736
+Accept: */*
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Content-Type: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-ES,es;q=0.8
+

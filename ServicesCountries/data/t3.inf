@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3_smp_21_.xml
+URL1=http://192.168.17.33:7676/smp_21_
+Total=2
+ContentType=text/xml
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+FileName2=t3_app_broadcasts.html
+URL2=https://app.getpostman.com/api/app_broadcasts?user_id=0&access_token=&count=10&app_version=4.10.7&app_platform=chrome
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+n:1890
+i:goog-badbinurl-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChVnb29nLWJhZGJpbnVybC1zaGF2YXI4AUACSgwIABCg5wcYoOcHIAE
+i:goog-badcrxids-digestvar
+i:goog-badip-digest256
+i:goog-badresource-shavar
+i:goog-csdwhite-sha256
+i:goog-downloadwhite-digest256
+i:goog-malware-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyOAFAAkoMCAEQ7PcPGOz3DyABSgwIABDZmhAY2ZoQIAE
+i:goog-phish-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhcjgBQAJKDAgBEKbQExim0BMgAUoMCAAQiZwdGImcHSAB
+i:goog-unwanted-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChRnb29nLXVud2FudGVkLXNoYXZhcjgBQAJKDAgBENe7BRjXuwUgAUoMCAAQ59sFGOfbBSAB
+i:goog-whitemodule-digest256

@@ -1,0 +1,34 @@
+// Copyright (c) 2002-2003 Quadralay Corporation.  All rights reserved.
+//
+
+function  WWSeeAlso_Object()
+{
+  this.mSetTimeoutID = null;
+
+  this.fOnClickButton = WWSeeAlso_OnClickButton;
+  this.fOnClickLink   = WWSeeAlso_OnClickLink;
+  this.fShowSeeAlso   = WWSeeAlso_ShowSeeAlso;
+}
+
+function  WWSeeAlso_OnClickButton(ParamSeeAlsoObjectID)
+{
+  if (this.mSetTimeoutID == null)
+  {
+    this.mSetTimeoutID = setTimeout("window.VarSeeAlso.fShowSeeAlso(" + ParamSeeAlsoObjectID + ");", 10);
+  }
+}
+
+function  WWSeeAlso_OnClickLink(ParamSeeAlsoObjectID)
+{
+  if (this.mSetTimeoutID == null)
+  {
+    this.mSetTimeoutID = setTimeout("window.VarSeeAlso.fShowSeeAlso(" + ParamSeeAlsoObjectID + ");", 10);
+  }
+}
+
+function  WWSeeAlso_ShowSeeAlso(ParamSeeAlsoObjectID)
+{
+  setTimeout("document.SeeAlso_" + ParamSeeAlsoObjectID + ".Click();", 1);
+
+  this.mSetTimeoutID = null;
+}

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\omar.vergara\Documents\VuGen\Scripts\ServicesCountries
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\omar.vergara\documents\vugen\scripts\servicescountries\\logfile.log
+c:\users\omar.vergara\documents\vugen\scripts\servicescountries\\combined_ServicesCountries.c
+c:\users\omar.vergara\documents\vugen\scripts\servicescountries\\pre_cci.c

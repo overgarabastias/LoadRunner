@@ -1,0 +1,62 @@
+﻿function sendFeedback() {
+	
+	//call MadCap function to clear search highlights
+	//remmed out for HTML5, works fine for WebHelp too
+	//FMCClearSearch(window);
+
+	var feedbackVariables = document.getElementById("hp-feedback-variables");
+	var productName = feedbackVariables.getAttribute("productName");
+	var productVersion = feedbackVariables.getAttribute("productVersion");
+	var commentsEmailAddress = feedbackVariables.getAttribute("commentsEmailAddress");
+	
+	//Sivia added the next few lines
+	//check for non-Latin characters in topic title
+	var string = feedbackVariables.getAttribute("topicTitle");
+	result=/[^\u0000-\u00ff]/.test(string);
+	if (result)
+		var firstheading = '';
+	else
+		var firstheading = feedbackVariables.getAttribute("topicTitle");
+	//end of added lines
+	
+	var productAcronym = feedbackVariables.getAttribute("productAcronym");
+
+	document.getElementById('hp-feedbackDiv').style.display = "block";
+	
+	if (productAcronym.length > 0)
+		productAcronym = " (" + productAcronym + ")";
+	
+	topicURL = document.URL.match(/\w+\.chm.+/);
+	if (!topicURL) topicURL = document.URL.match(/[\w-]*\.htm\w?|[\w-_]*\.xsl/i);
+	topicURL = topicURL.toString().replace(/[\?&=#]/g, "");
+	
+	line = '_______________________________________________________________%0D%0A';
+	
+	emailBody = document.getElementById('hp-feedbackBody').innerHTML;
+	emailBody = emailBody.replace(/<span id="?hp-feedbackURL"?><\/span>/i, topicURL);
+	emailBody = emailBody.replace(/<span id="?hp-feedbackProduct"?><\/span>/i, productName);
+	emailBody = emailBody.replace(/<span id="?hp-feedbackVersion"?><\/span>/i, productVersion);
+	emailBody = emailBody.replace(/<span id="?hp-feedbackTopic"?><\/span>/i, firstheading);
+	emailBody = emailBody.replace(/<span id="?hp-feedbackAcronym"?><\/span>/i, productAcronym);
+	//	emailBody = emailBody.replace(//,"");
+	
+	document.getElementById('hp-feedbackBody').innerHTML = emailBody;
+			
+	emailBody = emailBody.replace(/<br>/gi, "%0D%0A");
+	emailBody = emailBody.replace(/&nbsp;/g, " ");
+<!-- <SF>	the following code inserts a line above and below the email body - I have removed these lines... see below -->
+<!--	document.getElementById('hp-feedbackOpen').href = 'mailto:' + commentsEmailAddress + '?subject=Feedback on ' + productName + " " + productVersion + ": " + firstheading + '&body=' + line + emailBody + line; <!-- Localizable --> -->
+
+<!-- <SF>	the following code does not inserts a line above and below the email body - replaces the above -->
+	document.getElementById('hp-feedbackOpen').href = 'mailto:' + commentsEmailAddress + '?subject=Feedback on ' + productName + " " + productVersion + ": " + firstheading + '&body=' + emailBody; <!-- Localizable -- >	
+	
+	dimDiv = document.getElementById('hp-feedbackDimmedDiv');
+	dimDiv.style.display = "block";
+	dimDiv.onclick = closeFeedback;	
+}
+
+function closeFeedback()
+{
+	document.getElementById('hp-feedbackDiv').style.display = "none";
+	document.getElementById('hp-feedbackDimmedDiv').style.display = "none";	
+}

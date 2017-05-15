@@ -1,0 +1,9 @@
+POST /safebrowsing/gethash?client=googlechrome&appver=57.0.2987.133&pver=3.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&ext=0 HTTP/1.1
+Host: safebrowsing.google.com
+Connection: keep-alive
+Content-Length: 8
+Content-Type: text/plain
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Cookie: NID=100=iA_RHhBt6ErEklfwoRrl3hBwgeDsUNjaxnZ5Za6k-fLu5Nmx5QLeIuAaXW4E_B8i9AX2bIlPAAjOWkUpm-82U1ZAu5L-xfXFDSPZNmsnOUD6oEoOtKQBjM46MPc214Fr
+
